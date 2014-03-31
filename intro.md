@@ -1,0 +1,5 @@
+#Key Definitions
+
+* *Electronic Protected Health Information (ePHI)*:  Any individually identifiable health information protected by HIPAA that is transmitted by or stored in electronic media. * *Protected Health Information (PHI)*:  Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:  	* Past, present or future physical or mental health or condition of an individual.
+	* The provision of health care to an individual.
+	* The past, present, or future payment for the provision of health care to an individual.* *Workforce*:  Means employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity. 
