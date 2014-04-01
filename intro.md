@@ -45,7 +45,9 @@ partner and internal
 
 * *Logging Service*:* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
 
-* *Partner*:* *Protected Health Information (PHI)*:  Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:  	* Past, present or future physical or mental health or condition of an individual.
+* *Partner*:
+
+* *Platform*:* *Protected Health Information (PHI)*:  Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:  	* Past, present or future physical or mental health or condition of an individual.
 	* The provision of health care to an individual.
 	* The past, present, or future payment for the provision of health care to an individual.* *Trigger Event*:  Activities that may be indicative of a security breach that require further investigation (See Appendix).
 
