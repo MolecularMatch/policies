@@ -17,7 +17,7 @@ partner and internal
 
 * *Application*:
 
-* *BaaS*:
+* *BaaS*: Backend-as-a-Service. A set of APIs, and associated SDKs, for rapid mobile and web application development. APIs offer the ability to create users, do authentication, store data, and store files.
 
 * *Audit*:  Internal process of reviewing information system access and activity (e.g., log-ins, file accesses, and security incidents).  An audit may be done as a periodic event, as a result of a patient complaint, or suspicion of employee wrongdoing.
 
@@ -45,7 +45,9 @@ partner and internal
 
 * *Individually Identifiable Health Information*:  That information that is a subset of health information, including demographic information collected from an individual, and is created or received by a health care provider, health plan, employer, or health care clearinghouse; and relates to the past, present, or future physical or mental health or condition of an individual; the provision of health care to an individual; or the past, present, or future payment for the provision of health care to an individual; and identifies the individual; or with respect to which there is a reasonable basis to believe  the information can be used to identify the individual. * *Law Enforcement Official*:  Any officer or employee of an agency or authority of the United States, a State, a territory, a political subdivision of a State or territory, or an Indian tribe, who is empowered by law to investigate or conduct an official inquiry into a potential violation of law; or prosecute or otherwise conduct a criminal, civil, or administrative proceeding arising from an alleged violation of law.
 
-* *Logging Service*:* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
+* *Logging Service*:
+
+* *Messaging*: API-based services to deliver and receive SMS messages.* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
 
 * *Partner*:
 
@@ -59,7 +61,7 @@ partner and internal
 		* Valid encryption processes for data in motion (i.e. data that is moving through a network, including wireless transmission) are those that comply, as appropriate, with NIST Special Publications 800-52, Guidelines for the Selection and Use of Transport Layer Security (TLS) 	Implementations; 800-77, Guide to IPsec VPNs; or 800-113, Guide to SSL VPNs, and may include others which are Federal Information Processing Standards FIPS 140-2 validated.
 	2.  The media on which the PHI is stored or recorded has been destroyed in the following ways:
 		*  Paper, film, or other hard copy media have been shredded or destroyed such that the PHI cannot be read or otherwise cannot be reconstructed.  Redaction is specifically excluded as a means of data destruction.
-		*  Electronic media have been cleared, purged, or destroyed consistent with NIST 	Special Publications 800-88, Guidelines for Media Sanitization, such that the PHI cannot be retrieved.* *Workforce*:  Means employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity. 
+		*  Electronic media have been cleared, purged, or destroyed consistent with NIST 	Special Publications 800-88, Guidelines for Media Sanitization, such that the PHI cannot be retrieved.* *Workforce*:  Means employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity. 
 
 * *Restricted Area*: Those areas of the building(s) where protected health information and/or sensitive organizational information is stored, utilized, or accessible at any time. * *Role*:  The category or class of person or persons doing a type of job, defined by a set of similar or identical responsibilities.* *Unrestricted Area*: those areas of the building(s) where protected health information and/or sensitive organizational information is not stored or is not utilized or is not accessible there on a regular basis.* *Vendors*: persons from other organizations marketing or selling products or services, or providing services to Catalyze. * *Workstation*:  An electronic computing device, such as a laptop or desktop computer, or any other device that performs similar functions, used to create, receive, maintain, or transmit ePHI.  Workstation devices may include, but are not limited to: laptop or desktop computers, personal digital assistants (PDAs), tablet PCs, and other handheld devices.  For the purposes of this policy, “workstation” also includes the combination of hardware, operating system, application software, and network connection.#Version Control
 

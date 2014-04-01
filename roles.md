@@ -2,6 +2,14 @@
 
 Catalyze has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safegaurds towards compliance. The responsiblities associated with these roles are outlined below.
 
+#Applicable Standards from the HITRUST Common Security Framework
+
+*  06.d - Data Protection and Privacy of Covered Information
+
+#Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(2)
+
 #Privacy Officer
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
