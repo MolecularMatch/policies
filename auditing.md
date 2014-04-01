@@ -6,7 +6,8 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 * Network vulnerabilities and intrusions;
 * Breaches in confidentiality and security of patient protected health information;
 * Performance problems and flaws in applications;
-* Improper alteration or destruction of ePHI.This policy applies to all Catalyze systems that store, transmit, or process ePHI.
+* Improper alteration or destruction of ePHI;
+* Out of date software and/or software known to have vulnerabilities.This policy applies to all Catalyze systems that store, transmit, or process ePHI.
 
 #Applicable Standards/Regulations from HIPAA Security Rule
 
@@ -23,11 +24,57 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 	3. Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
 	4. Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
 
-2.	Catalyze’s auditing processes shall address access and activity at the following levels listed below.  Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
-	3. User:  User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
-	4. Application:   Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
+2.	Catalyze’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Custoners, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
+	3. User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
+	4. Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
 	5. System:  System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions.
-	6. Network:  Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
+	6. Network:  Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
+
+3. Catalyze shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include orgin, destination, time, and other relevant details that are available to Catalyze.
+
+4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.4.	Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information.  The “events” may be applied to the entire Catalyze Plaform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below). 5.	Catalyze’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
+	* Scanning tools and devices;
+	* Password cracking utilities;
+	* Network “sniffers.”
+	* Passive and active intrusion detection systems.6.	The process for review of audit logs, trails, and reports shall include:
+	1. Description of the activity as well as rationale for performing the audit.
+	2. Identification of which Catalyze workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).
+	3. Frequency of the auditing process.
+	4. Determination of significant events requiring further review and follow-up.
+	5. Identification of appropriate reporting channels for audit results and required follow-up.7.	Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
+	* Testing may be carried out internally or provided through an external third-party vendor.  Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services – separation of duties).
+	* Testing shall be done on a routine basis, currently monthly.
+
+8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the process to production.
+	* In the case of PaaS Customers, updates to Application and Database versions are the responsibilty of Customers, though Catalyze will, at it's own discretion, notify and recommend updates to customer systems.
+
+	
+#Audit Requests8.	A request may be made for an audit for a specific cause.  The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.9.	A request for an audit for specific cause must include time frame, frequency, and nature of the request.  The request must be reviewed and approved by Catalyze’s Privacy or Security Officer.10.	A request for an audit must be approved by Catalyze’s Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
+	* Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with Catalyze’s Security Officer to determine appropriate sanction/ corrective disciplinary action.
+	* Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by Catalyze’s Privacy Officer or designee.  Prior to communicating with customers and partners regarding an audit, it is recommended that Catalyze consider seeking risk management and/or legal counsel.
+
+#Review and Reporting of Audit Findings11.	Audit information that is routinely gathered must be reviewed in a timely manner, currently monthly, by the responsible workforce member(s).12.	The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.
+	* Significant findings shall be reported immediately in a written format. Catalyze’s security incident response form may be utilized to report a single event.
+	* Routine findings shall be reported to the sponsoring leadership structure in a written report format.13.	Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis.  Audit results shall not be disclosed externally without administrative and/or legal counsel approval.14.	Security audits constitute an internal, confidential monitoring practice that may be included in Catalyze’s performance improvement activities and reporting.  Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution.  Generic security audit information may be included in organizational reports (individually-identifiable e PHI shall not be included in the reports).15.	Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
+
+#Auditing Customer and Partner Activity16.	Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between Catalyze and the 3rd party. Catalyze will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments. 17.	If it is determined that the Customer or Partner has exceeded the scope of access privileges, Catalyze’s leadership must remedy the problem immediately.18.	If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, Catalyze must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
+
+#Audit Log Security Controls and Backup 19.	Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.20.	All audit logs are encrypted in transit and at rest to control access to the content of the logs.21.	Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.  This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
+
+22. For PaaS Customers choosing to use Catalyze logging services, log data will be separated from the log data of other Catalyze Customers.
+#Workforce Training, Education, Awareness and Responsibilities22.	Catalyze workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and  ePHI.  Catalyze’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Catalyze workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
+23. Catalyze Customers are provided with necessary information to understand Catalyze auditing capabilities, and PaaS Customers can choose the level of logging and auditing that Catalyze will implement on their behalf.
+
+#External Audits of Information Access and Activity23.	Prior to contracting with an external audit firm, Catalyze shall:
+	* Outline the audit responsibility, authority, and accountability;
+	* Choose an audit firm that is independent of other organizational operations;
+	* Ensure technical competence of the audit firm staff;
+	* Require the audit firm’s adherence to applicable codes of professional ethics;
+	* Obtain a signed HIPAA business associate agreement;
+	* Assign organizational responsibility for supervision of the external audit firm.#Retention of Audit Data24.	Audit logs shall be maintained based on organizational needs.  There is no standard or law addressing the retention of audit log/trail information.  Retention of this information shall be based on:A.	Organizational history and experience.B.	Available storage space.25.	Reports summarizing audit activities shall be retained for a period of six years.
+23. Log data is currently retained and readily accessible for a 1 month period. Beyond that, log data is available via cold backup. 
+
+24. For Paas Customers, they choose the length of backup retention and availability that Catalyze will implement and enforce.
 
 #Auditing of PaaS
 
