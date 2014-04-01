@@ -9,7 +9,14 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.This policy applies to all Catalyze systems that store, transmit, or process ePHI.
 
-#Applicable Standards/Regulations from HIPAA Security Rule
+#Applicable Standards from the HITRUST Common Security Framework
+
+* 0.a Information Security Management Program
+* 01.a Access Control Policy
+* 01.b User Registration
+* 01.c Privilege Management
+
+#Applicable Standards from the HIPAA Security Rule
 
 * 45 CFR § 164.308(a)(1)(ii)(D)  – Information System Activity Review
 * 45 CFR § 164.308(a)(5)(ii)(B) & (C) – Protection from Malicious Software & Log-in Monitoring
@@ -27,12 +34,16 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 2.	Catalyze’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Custoners, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
 	3. User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
 	4. Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
-	5. System:  System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions.
+	5. System:  System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Catalyze utilizes file system monitoring from OSSEC to assure the integrity of file system data.
 	6. Network:  Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 
-3. Catalyze shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include orgin, destination, time, and other relevant details that are available to Catalyze.
+3. Catalyze shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Catalyze.
 
-4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.4.	Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information.  The “events” may be applied to the entire Catalyze Plaform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below). 5.	Catalyze’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
+4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
+
+5. Catalyze uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.4.	Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information.  The “events” may be applied to the entire Catalyze Plaform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
+
+5. In addition to trigger events, Catalyze utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.5.	Catalyze’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
 	* Scanning tools and devices;
 	* Password cracking utilities;
 	* Network “sniffers.”
@@ -45,7 +56,7 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 	* Testing may be carried out internally or provided through an external third-party vendor.  Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services – separation of duties).
 	* Testing shall be done on a routine basis, currently monthly.
 
-8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the process to production.
+8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production.
 	* In the case of PaaS Customers, updates to Application and Database versions are the responsibilty of Customers, though Catalyze will, at it's own discretion, notify and recommend updates to customer systems.
 
 	
@@ -59,7 +70,7 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 
 #Auditing Customer and Partner Activity16.	Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between Catalyze and the 3rd party. Catalyze will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments. 17.	If it is determined that the Customer or Partner has exceeded the scope of access privileges, Catalyze’s leadership must remedy the problem immediately.18.	If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, Catalyze must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
 
-#Audit Log Security Controls and Backup 19.	Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.20.	All audit logs are encrypted in transit and at rest to control access to the content of the logs.21.	Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.  This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
+#Audit Log Security Controls and Backup 19.	Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.20.	All audit logs are encrypted in transit and at rest to control access to the content of the logs. For PaaS Customers, it is the responsibility of the Customer to encrypt log data before it is sent to Catalyze Logging Service.21.	Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.  This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
 
 22. For PaaS Customers choosing to use Catalyze logging services, log data will be separated from the log data of other Catalyze Customers.
 #Workforce Training, Education, Awareness and Responsibilities22.	Catalyze workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and  ePHI.  Catalyze’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Catalyze workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
