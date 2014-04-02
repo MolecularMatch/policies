@@ -18,8 +18,8 @@ Catalyze implements an information security incident response process to consist
 
 #Applicable Standards from the HIPAA Security Rule
 
-* 45 CFR §164.308(a)(1) – HIPAA Security Rule Information System Activity Review
-* 5 CFR §164.308(a)(6) – HIPAA Security Rule Information System Activity Review
+* 164.308(a)(5)(i) – Security Awareness and Training
+* 164.308(a)(6) – Security Incident Procedures
 
 #Incident Management Policies
 The Catalyze incident response process follows the process recommended by SANS, an industry leader in security (www.sans.org).  Process flows are a direct representation of the SANS process.  Review Appendix 1 for a flowchart identifying each phase.
