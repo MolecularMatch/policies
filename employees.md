@@ -7,6 +7,7 @@ Catalyze is committed to ensuring all workforce members actively address securit
 *  06.e - Prevention of Misuse of Information Assets
 *  07.c - Acceptable Use of Assets
 *  08.j - Controls Against Malicious Code
+*  01.y - Teleworking
 
 #Applicable Standards from the HIPAA Security Rule
 
@@ -23,3 +24,5 @@ Catalyze is committed to ensuring all workforce members actively address securit
 4. All workforce members are educated about the approved set of tools to be installed on workstations.
 
 5. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonomously report security incidents, and the levels of compliance and obligations for Catalyze and its Customers and Partners.
+
+6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.

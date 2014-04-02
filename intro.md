@@ -51,13 +51,17 @@ partner and internal
 
 * *Logging Service*:
 
-* *Messaging*: API-based services to deliver and receive SMS messages.* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
+* *Messaging*: API-based services to deliver and receive SMS messages.
+
+* *Minimum Necessary Information*: Protected health information that is the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.  The “minimum necessary” standard applies to all protected health information in any form.* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
 
 * *Partner*:
 
 * *Platform*:* *Protected Health Information (PHI)*:  Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:  	* Past, present or future physical or mental health or condition of an individual.
 	* The provision of health care to an individual.
-	* The past, present, or future payment for the provision of health care to an individual.* *Sanitization*:  Removal or the act of overwriting data to a point of preventing the recovery of the data on the device or media that is being sanitized. Sanitization is typically done before re-issuing a device or media, donating equipment that contained sensitive information or returning leased equipment to the lending company.* *Trigger Event*:  Activities that may be indicative of a security breach that require further investigation (See Appendix).
+	* The past, present, or future payment for the provision of health care to an individual.
+
+* *Role*: The category or class of person or persons doing a type of job, defined by a set of similar or identical responsibilities.* *Sanitization*:  Removal or the act of overwriting data to a point of preventing the recovery of the data on the device or media that is being sanitized. Sanitization is typically done before re-issuing a device or media, donating equipment that contained sensitive information or returning leased equipment to the lending company.* *Trigger Event*:  Activities that may be indicative of a security breach that require further investigation (See Appendix).
 
 * *Unsecured Protected Health Information*:   Protected health information (PHI) that is not rendered unusable, unreadable, or indecipherable to unauthorized individuals through the use of technology or methodology specified by the Secretary in the guidance issued under section 13402(h)(2) of Pub. L.111-5 on the HHS website.
 	1. Electronic PHI has been encrypted as specified in the HIPAA Security rule by the use of an algorithmic process to transform data into a form in which there is a low probability of assigning meaning without the use of a confidential process or key and such confidential process or key that might enable decryption has not been breached.  To avoid a breach of the confidential process or key, these decryption tools should be stored on a device or at a location separate from the data they are used to encrypt or decrypt.  The following encryption processes meet this standard.
