@@ -15,6 +15,10 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 * 01.a Access Control Policy
 * 01.b User Registration
 * 01.c Privilege Management
+* 09.aa Audit Logging
+* 09.ac Protection of Log Information
+* 09.ab - Monitoring System Use
+* 06.e - Prevention of Misuse of Information
 
 #Applicable Standards from the HIPAA Security Rule
 
