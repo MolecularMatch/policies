@@ -7,7 +7,7 @@ It is the policy of Catalyze to safeguard the confidentiality, integrity, and av
 * Breaches in confidentiality and security of patient protected health information;
 * Performance problems and flaws in applications;
 * Improper alteration or destruction of ePHI;
-* Out of date software and/or software known to have vulnerabilities.This policy applies to all Catalyze systems that store, transmit, or process ePHI.
+* Out of date software and/or software known to have vulnerabilities.This policy applies to all Catalyze Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Logging Service. 
 
 #Applicable Standards from the HITRUST Common Security Framework
 

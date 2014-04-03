@@ -27,6 +27,8 @@ partner and internal
 
 * *BaaS*: Backend-as-a-Service. A set of APIs, and associated SDKs, for rapid mobile and web application development. APIs offer the ability to create users, do authentication, store data, and store files.
 
+* *Backup*: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
+
 * *Backup Service*:* *Breach*:  Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI.  For purpose of this definition, “compromises the security or privacy of the PHI” means poses a significant risk of financial, reputational, or other harm to the individual.  A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
 
 	1. Any unintentional acquisition, access or use of PHI by a workforce member or person acting under the authority of a Covered Entity (CE) or Business Associate (BA) if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under the Privacy Rule.
@@ -35,13 +37,17 @@ partner and internal
 
 * *De-identification*:
 
-* *Disaster Recovery*:* *Disclosure*:  Disclosure means the release, transfer, provision of, access to, or divulging in any other manner of information outside the entity holding the information.
+* *Disaster Recovery*:
+
+* *Disaster Recovery Service*: * *Disclosure*:  Disclosure means the release, transfer, provision of, access to, or divulging in any other manner of information outside the entity holding the information.
 
 * *Customers*:
 
 * *Electronic Protected Health Information (ePHI)*:  Any individually identifiable health information protected by HIPAA that is transmitted by, processed in some way, or stored in electronic media. 
 
-* *Environment*:'
+* *Environment*:
+
+* *Hardware (or hard drive)*: Any computing device able to create and store ePHI.
 
 * *Health and Human Services (HHS)*:
 
@@ -53,7 +59,9 @@ partner and internal
 
 * *Messaging*: API-based services to deliver and receive SMS messages.
 
-* *Minimum Necessary Information*: Protected health information that is the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.  The “minimum necessary” standard applies to all protected health information in any form.* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
+* *Minimum Necessary Information*: Protected health information that is the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.  The “minimum necessary” standard applies to all protected health information in any form.
+
+* *Off-Site*: For the purpose of storage of Backup media, off-site is defined as any location separate from the building in which the backup was created.  It must be physically separate from the creating site.* *Organization*:  For the purposes of this policy, the term “organization” shall mean Catalyze.
 
 * *Partner*:
 

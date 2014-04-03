@@ -1,5 +1,7 @@
 #Summary
-The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. The following objectives have been established for this plan: 
+The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Disaster Recovery Service. 
+
+The following objectives have been established for this plan: 
 
 1. Maximize the effectiveness of contingency operations through an established plan that consists of the following phases:
 	3. *Notification/Activation phase* to detect and assess damage and to activate the plan;
