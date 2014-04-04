@@ -1,7 +1,7 @@
-#Summary
+#Employees Policy
 Catalyze is committed to ensuring all workforce members actively address security and compliance in their roles at Catalyze. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 *  02.e - Information Security Awareness, Education, and Training
 *  06.e - Prevention of Misuse of Information Assets
@@ -9,9 +9,9 @@ Catalyze is committed to ensuring all workforce members actively address securit
 *  08.j - Controls Against Malicious Code
 *  01.y - Teleworking
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(5)(i) - Security Awareness and Training#Employment Policies
+* 164.308(a)(5)(i) - Security Awareness and Training##Employment Policies
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
 	* Records of training are kept for all workforce members.

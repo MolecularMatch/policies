@@ -1,19 +1,19 @@
-#Summary
+#Risk Management Policy
 This policy establishes the scope, objectives, and procedures of Catalyze's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission. 
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 * 03.a - Risk Management Program Development
 * 03.b - Performing Risk Assessments
 *  03.c - Risk Mitigation
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(1)(ii)(A) – HIPAA Security Rule Risk Analysis
 * 164.308(a)(1)(ii)(B) – HIPAA Security Rule Risk Management 
 * 164.308(a)(8) – HIPAA Security Rule Evaluation
 
-#Risk Management Policy
+##Risk Management Policies
 
 1.	It is the policy of Catalyze to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of  electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Catalyze's information security program.  2.	Risk analysis and risk management are recognized as important components of Catalyze’s corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
 	1. Risk assessments are done throughout product life cycles: 
@@ -28,7 +28,7 @@ This policy establishes the scope, objectives, and procedures of Catalyze's info
 
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Catalyze’s Security Officer (or other designated employee), and the identified Risk Management Team.6.	All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 
-#Risk Management Procedures
+##Risk Management Procedures
 
 **Risk Assessment**: The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
@@ -86,5 +86,5 @@ This policy establishes the scope, objectives, and procedures of Catalyze's info
 * Scheduled Basis – an overall risk assessment of Catalyze’s information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
 * Throughout a System’s Development Life Cycle – from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed – the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect Catalyze’s Platform.
-#Process Documentation
+##Process Documentation
 Maintain documentation of all risk assessment, risk management, and risk mitigation efforts for a minimum of six years.

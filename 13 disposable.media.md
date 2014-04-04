@@ -1,17 +1,17 @@
-#Summary
+#Disposable Media Policy
 Catalyze recognizes that media containing ePHI may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
 
 Catalyze utilizes dedicated hardware from Subcontractors. ePHI is only stored on SD volumes in our hosted environment. All SD volumes utilized by Catalyze and Catalyze Customers are encrypted. Catalyze does not use, own, or manage any mobile devices, SSD cards, or tapes that have access to ePHI.
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 *  0.9o - Management of Removable Media
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
-* BLANK
+* 164.310(d)(1) - Device and Media Controls
 
-#Disposable Media Policy
+##Disposable Media Policy
 
 1. All removable media is restricted, audited, and is encrypted.
 

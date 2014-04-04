@@ -1,4 +1,4 @@
-#Summary
+#Disaster Recover Policy
 The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Disaster Recovery Service. 
 
 The following objectives have been established for this plan: 
@@ -27,15 +27,15 @@ This Catalyze Contingency Plan complies with the OPDIV IT Contingency Planning P
 
 Example of the types of disasters that would initiate this plan are natural disaster, political disturbances, man made disaster, external human threats, internal malicious activties.
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 *  12.c - Developing and Implementing Continuity Plans Including Information Security
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(7)(i) - Contingency Plan
 
-#Line of Succession
+##Line of Succession
 OPDIV sets forth an order of succession to ensure that decision-making authority for the Catalyze Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Brian Lewis, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Catalyze Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * Ben Uphoff, CTO: 414-335-0253, ben@catalyze.io
@@ -43,11 +43,11 @@ OPDIV sets forth an order of succession to ensure that decision-making authority
 * Travis Good, CEO: 303-351-2640, travis@catalyze.io
 * Mohan Balachandran, CPO: 214-215-7998, mohan@catalyze.io
 
-#Responsibilities
+##Responsibilities
 The following teams have been developed and trained to respond to a contingency event affecting the IT system. 1. The **Ops Team** is responsible for recovery of the Catalyze hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Catalyze. The team leader is the VP of Engineering and directs the Dev Ops Team. 
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
-#Testing and Maintenance
+##Testing and Maintenance
 The CTO and VP of Engineering shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan’s execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
 
 *Tabletop Testing*
@@ -59,7 +59,7 @@ Tabletop Testing is conducted in accordance with the CMS Contingency Planning Ta
 
 * Process from backup system at the alternate site;
 * Restore system using backups; and
-* Switch voice and data telecommunications to alternate processing site. #1. Notification and Activation Phase
+* Switch voice and data telecommunications to alternate processing site. ##1. Notification and Activation Phase
 This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Catalyze. Based on the assessment of the Event, sometimes according to the Catalyze Incident Response Policy, the Contingecy Plan may be activated by either the CTO or VP of Engineering.Contact information for key personnel is located in Appendix A. The notification sequence is listed below:
 
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
@@ -78,7 +78,7 @@ This phase addresses the initial actions taken to detect and assess damage infli
 	* The CTO is to notify remaining personnel and executive leadership on the general status of the incident.
 		* Notification can be message, email, or phone.
 
-#2. Recovery Phase
+##2. Recovery Phase
 
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities. The following procedures are for recovering the Catalyze infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations. Recovery Goal: The goal is to rebuild Catalyze infrastructure to a production state.
 
@@ -90,7 +90,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 4.  Test new environment using pre-written tests - Web Services
 5. Test logging, security, and alerting functionality - Dev Ops
 6. Deploy environment to production - Web Services
-7. Update DNS to new environment. - Dev Ops#3. Reconstitution Phase
+7. Update DNS to new environment. - Dev Ops##3. Reconstitution Phase
 This section discusses activities necessary for restoring Catalyze operations at the original or new site. When the hosted data center at the original or new site has been restored, Catalyze operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration

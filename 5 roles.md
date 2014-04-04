@@ -1,17 +1,18 @@
-#Summary
+#Roles Policy
 
 Catalyze has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safegaurds towards compliance. The responsiblities associated with these roles are outlined below.
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 *  06.d - Data Protection and Privacy of Covered Information
 *  06.g - Compliance with Security Policies and Standards
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(2)
+* 164.308(a)(2) - Assigned Security Responsibility
+* 164.308(a)(5)(i) - Security Awareness and Training
 
-#Privacy Officer
+##Privacy Officer
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
 
@@ -22,7 +23,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 
 The current Catalyze Privacy Officer is Travis Good ([travis@catalyze.io](mailto:travis@catalyze.io)).
 
-#Workforce Training Responsibilities
+##Workforce Training Responsibilities
 1. The Privacy Officer facilitates the training of all workforce members as follows:
 	2. New workforce members within their first month of employment;
 	3. Existing workforce members annually;
@@ -57,13 +58,13 @@ The current Catalyze Privacy Officer is Travis Good ([travis@catalyze.io](mailto
 	25. Procedures to re-use electronic media containing ePHI;
 	26. SSH key and sensitive document encryption procedures.
 
-#Security Officer
+##Security Officer
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of Catalyze security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
 The current Catalyze Security Officer is Benjamin Uphoff ([ben@catalyze.io](mailto:ben@catalyze.io)).
 
-#Organizational Responsibilities
+##Organizational Responsibilities
 
 The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to Catalyze’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements.
 
@@ -103,14 +104,14 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 		26. Patch management;
 		27. Media Disposal and/or Re-use;
 		28. Documentation requirements.
-#Supervision of Workforce Responsibilities
+##Supervision of Workforce Responsibilities
 Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of Catalyze’s systems, applications, servers, workstations, etc. that contain ePHI.
 
 1. Monitor workstations and applications for unauthorized use, tampering, and theft and report non-compliance according to the Security Incident Response policy.
 
 2. Assist the Security and Privacy Officers to ensure appropriate role-based access is provided to all users.
 
-3. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and Catalyze’s security policies and procedures.#Sanctions of Workforce Responsibilities 
+3. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and Catalyze’s security policies and procedures.##Sanctions of Workforce Responsibilities 
 All workforce members report non-compliance of Catalyze’s policies and procedures to the Security Officer or other individual as assigned by the Security Officer.  Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.1. The Security Officer promptly facilitates a thorough investigation of all reported violations of Catalyze’s security policies and procedures.  The Security Officer may request the assistance from others.
 	2. Complete an audit trail/log to identify and verify the violation and sequence of events.
 	3. Interview any individual that may be aware of or involved in the incident.

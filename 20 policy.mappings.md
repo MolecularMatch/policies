@@ -1,3 +1,4 @@
+#HIPAA Mappings to Catalyze Controls
 Below is a list of HIPAA Safegaurds and Requirements and the Catalyze controls in place to meet those.
 
 | **Administrative Controls**

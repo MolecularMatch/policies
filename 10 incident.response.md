@@ -1,4 +1,4 @@
-#Summary
+#Incident Response Policy
 Catalyze implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.  The incident response process addresses:
 
 * Continuous monitoring of threats through intrusion detection systems (IDS) and other monitoring applications;
@@ -8,7 +8,7 @@ Catalyze implements an information security incident response process to consist
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-#Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Framework
 
 *  02.f - Disciplinary Process
 *  06.f - Prevention of Misuse of Information Assets
@@ -16,12 +16,12 @@ Catalyze implements an information security incident response process to consist
 *  11.c - Responsibilities and Procedures
 *  11.a - Reporting Information Security Events
 
-#Applicable Standards from the HIPAA Security Rule
+##Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(5)(i) – Security Awareness and Training
 * 164.308(a)(6) – Security Incident Procedures
 
-#Incident Management Policies
+##Incident Management Policies
 The Catalyze incident response process follows the process recommended by SANS, an industry leader in security (www.sans.org).  Process flows are a direct representation of the SANS process.  Review Appendix 1 for a flowchart identifying each phase.
 
 **Identification Phase**:
@@ -107,12 +107,11 @@ The Follow-up Phase represents the review of the security incident to look for �
 
 **Periodic Evaluation**
 
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness.  This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Catalyze’s expectation for them, relative to security responsibilities. The incident response plan is tested annually.
+It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness.  This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Catalyze’s expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
-
-#Security Incident Response Team (SIRT)
+##Security Incident Response Team (SIRT)
 
 Individuals needed and responsible to respond to a security incident make up a Security Incident Response Team (SIRT). Members may include the following:* Security Officer
 * Privacy Officer
 * Senior Management
-* Security Team Staff
+* VP of Engineering
