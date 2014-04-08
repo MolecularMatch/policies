@@ -2,7 +2,7 @@
 
 ## Effective date: April 1, 2014
 
-1. Definitions
+1. **Definitions**
 	1.1. **“Affiliate”** shall mean (a) any persons or entities that, directly or indirectly, control, are controlled by, or are under common control with either Party, or (b) any persons or entities that are acquired, managed, or operated by either Party, whether by membership, stock ownership, joint operating agreement, or other substantial relationship.  “Control” means, with respect to a corporation, the direct or indirect control of more than fifty percent (50%) of the voting power to elect directors thereof, or with respect to any other entity, the power to direct the management or management policies of such entity. **(DO WE NEED THIS?)**
 		1.2	**"Authorized Users"** or **“Users”** means all Persons authorized by you to access Services through your account under this Agreement. 
 	1.3	 **“Customer Data”, "Your Data"** means any and all information, data, materials, works, expressions or other content, including any that are uploaded, submitted, posted, transferred, transmitted or otherwise provided or made available through your Application for processing by or through the Services, or (b) collected, downloaded or otherwise received by Catalyze via the Services pursuant to this Agreement or any Service Order. 
@@ -10,14 +10,14 @@
 	1.5	**"Permitted Uses”** means access and use of the Platform by you for your benefit for your internal and external business operations within your network of clients, Catalyzes and patients.
 	1.6 **“Person”** means an individual, corporation, partnership, joint venture, limited liability company, governmental authority, unincorporated organization, trust, association or other entity.
 	1.7	**“Professional Services”** means those services provided by Catalyze in connection with the delivery of Services to the Customer but invoiced as a separate line item from the Platform itself such as, by way of example, set up, implementation, training, customization and other professional services. 
-	1.8 **“Catalyze Materials"** means all command line tools, devices, documents, data, know-how, methods, processes, sample code, software, software libraries, and other inventions, works, technologies and materials, including any and all Service Software, computer hardware, programs, reports and specifications, WDSLs, client software and deliverables provided or used by Catalyze in connection with performing the Platform, in each case developed or acquired by Catalyze independently of this Agreement. 
+	1.8 **“Catalyze Materials"** means all command line tools, devices, documents, data, know-how, methods, processes, sample code, software, software libraries, policies, and other inventions, works, technologies and materials, including any and all Service Software, computer hardware, programs, reports and specifications, WDSLs, client software and deliverables provided or used by Catalyze in connection with performing the Platform, in each case developed or acquired by Catalyze independently of this Agreement. 
 	1.9 **“Site”** means http://developer.catalyze.io and any successor or related sites designated by Catalyze. 
-	1.10 **Catalyze** means Catalyze, Inc., located at 111 S. Hamilton St, #30, Madison, WI 53005, United States, and its subsidiaries or affiliates involved in providing the Platform Services.
-	1.11 **“Platform Services or Services or Platform”** means the services Catalyze makes available through this website and the Catalyze platform, including the catalyze.io website, the Catalyze application platform, the Catalyze API, and any other software or services offered by Catalyze. 
+	1.10 **Catalyze** means Catalyze, Inc., located at 111 S. Hamilton St, #30, Madison, WI 53703, United States, and its subsidiaries or affiliates involved in providing the Platform Services.
+	1.11 **“Platform Services or Services or Platform or Add-ons or Platform Add-ons”** means the services Catalyze makes available through this website and the Catalyze platform, including the Catalyze website (https://catalyze.io), the Catalyze application platform, the all Catalyze APIs, and any other software or services offered by Catalyze. 
 
-2. Your agreement with Catalyze
+2. **Your agreement with Catalyze**
 
-	2.1. Your use of the Services are governed by this agreement (the "Terms"). Your use of the catalyze.io website and the Services is likewise governed by the Terms as described in more detail below.
+	2.1. Your use of the Services are governed by this agreement (the "Terms"). Your use of the Catalyze websites and the Services is likewise governed by the Terms as described in more detail below.
 	
 	2.2. You may not use Services if you are a person barred from receiving Services under the laws of the United States or other countries, including the country in which you are resident or from which you use Services, or international laws or treaties. You affirm that you are over the age of 13, as Services are not intended for children under 13. IF YOU ARE 13 OR OLDER BUT UNDER THE AGE OF 18, OR THE LEGAL AGE OF MAJORITY WHERE YOU RESIDE IF THAT JURISDICTION HAS AN OLDER AGE OF MAJORITY, THEN YOU AGREE TO REVIEW THE TERMS WITH YOUR PARENT OR GUARDIAN TO MAKE SURE THAT BOTH YOU AND YOUR PARENT OR GUARDIAN UNDERSTAND AND AGREE TO THE TERMS. YOU AGREE TO HAVE YOUR PARENT OR GUARDIAN REVIEW AND ACCEPT THE TERMS ON YOUR BEHALF. IF YOU ARE A PARENT OR GUARDIAN AGREEING TO THE TERMS FOR THE BENEFIT OF A CHILD OVER 13, THEN YOU AGREE TO AND ACCEPT FULL RESPONSIBILITY FOR THAT CHILD'S USE OF THE SERVICES, INCLUDING ALL FINANCIAL CHARGES AND LEGAL LIABILITY THAT HE OR SHE MAY INCUR
 	
@@ -29,9 +29,9 @@
 
 	3.1. Your use of the Services must comply with all applicable laws, regulations and ordinances, including any laws regarding the export of data or software.
 	
-	3.2 **Usage Limits**. Your account may have usage limits, as further explained on the Catalyze websites or other documentation provided by Catalyze. The Services shall not permit you to exceed the hard usage limits. Catalyze reserves the right to enforce soft usage limits in its sole discretion, which may result in Catalyze serving a “quota exceeded” page to you or your end users (“End Users”). Repeated exceeding of the hard or soft usage limits may lead to termination of your account
+	3.2 **Usage Limits**. Your account may have usage limits, as further explained on the Catalyze websites or other documentation provided by Catalyze. The Services shall not permit you to exceed the hard usage limits. Catalyze reserves the right to enforce soft usage limits in its sole discretion, which may result in Catalyze serving a “quota exceeded” page to you or your end users (“End Users”). Repeated exceeding of the hard or soft usage limits may lead to termination of your account,
 	
-	3.3 **No Resale**. Services are to be accessed by you and your Authorized Users only
+	3.3 **No Resale**. Services are to be accessed by you and your Authorized Users only unless expressly permitted in your Service Order **(ADDED EXCEPTION IF IT IS IN THE SERVICE ORDER FOR AGENCIES THAT MIGHT WANT DEDICATED PLATFORM TO RESELL)**.
 
 	3.4 **Privacy Policy**. The Services and Catalyze shall be subject to the privacy policy for the Services and Catalyze available at http://www.catalyze.io/privacy.html (**TBD**). You agree to the use of your data in accordance with Catalyze's privacy policies.
 	
@@ -42,6 +42,7 @@
 	3.7 **Prohibited Content**.  You agree that in conjunction with your access to the Platform that the Content displayed and/or processed and/or processed through your Application or other web sites utilizing Platform shall not contain any of the following types of content: 
 	
 	- Content that infringes a third party's rights (e.g., copyright) according to applicable law;
+	- Content that contains electronic protected health information (ePHI) to which you do not have explicit authorization and/or right to store, process, or transmit;
 	- Excessively profane content;
 	- Any hate-related or violent content or contains any other material, products or services that violate or encourage conduct that would violate any criminal laws, any other applicable laws, or any third party rights;
 	- Content advocating racial or ethnic intolerance;
@@ -61,6 +62,8 @@
 	- sending emails to users who have requested to be removed from an applicable mailing list;
 	- selling, exchanging or distributing to a third party the email addresses of any person without any legally required consent to such disclosure; and
 	- sending unsolicited emails to significant numbers of email addresses belonging to individuals and/or entities with whom you or your Authorized Users have no preexisting relationship in violation of applicable law;
+
+	**I DON'T UNDERSTAND THE BELOW ENTRIES? HOW DO THESE FIT HERE?**
 
 		(a)	conducting or forwarding pyramid schemes and the like;
 		
@@ -86,7 +89,7 @@
 		
 		(l)	Use the Platform in connection with illegal peer-to-peer file sharing.
 
-	3.7	**Your Content on the Platform and Take Down Obligations**.  You agree and understand that you are solely responsible for the content of all visual, written or audible communications or any other material, including data files, written text, computer software, music, audio files or other sounds, photographs, video or other images (“Content”) displayed, uploaded, exchanged or transmitted by you on, through the Platform.  Catalyze shall not be liable in any way for the Content, including, but not limited to any errors or omissions in any Content, or any loss or damage of any kind incurred as a result of the use of, access to, or denial of access to the Content. Catalyze does not endorse and has no control over what you or your end users post or submit to your Applications residing on the Platform and you agree to the following provisions:
+	3.7	**Your Content on the Platform and Take Down Obligations**.  You agree and understand that you are solely responsible for the content of all visual, written or audible communications or any other material, including data files, written text, computer software, music, audio files or other sounds, photographs, video or other images (“Content”) displayed, uploaded, exchanged or transmitted by you on, through the Platform.  Catalyze shall not be liable in any way for the Content, including, but not limited to, any errors or omissions in any Content, or any loss or damage of any kind incurred as a result of the use of, access to, or denial of access to the Content. Catalyze does not endorse and has no control over what you or your end users post or submit to your Applications residing on the Platform and you agree to the following provisions:
 	
 	- 3.7.1 	You agree to promptly take down any Content that violates this Agreement, including pursuant to a take-down request from Catalyze. In the event that you elect not to comply with a request from Catalyze to take down certain Content, Catalyze reserves the right to directly take down such Content or to disable Applications upon reasonable prior written notice.
 	
@@ -94,13 +97,15 @@
 	
 	- 3.7.3 	You agree that you are solely responsible for (and that Catalyze has no responsibility to you or to any third party for) your Application or any Content that it creates, transmits or displays while using the Services and for the consequences of its actions (including any loss or damage which Catalyze may suffer) by doing so, except to the extent caused by the Services or Catalyze.
 	
-	- 3.7.4	 You agree that Catalyze has no responsibility or liability for the deletion or failure to store any of your Content and other communications maintained or transmitted through use of the Service. 
+	- 3.7.4  You agree that you are solely responsible for obtaining the required authorization for any and all electronic protected health information (ePHI) you create, process, store, or transmit using teh Service.
+	
+	- 3.7.5	 You agree that Catalyze has no responsibility or liability for the deletion or failure to store any of your Content and other communications maintained or transmitted through use of the Service.
 	
 4.	Licenses from You / Customer
 
 	4.1	**License**. Catalyze claims no ownership or control over any of your Applications or Content that is processed through your Application. You retain all copyright and any other rights you already hold in the your Content and/or your Application, and you are responsible for protecting those rights, as appropriate.   By submitting your Application on or through the Platform, you grant Catalyze a worldwide, royalty-free, and non-exclusive license to reproduce, publish, publicly perform, publicly display such Application, including any of your trademarks or service marks, for the sole purpose of enabling Catalyze to provide you with the Platform and solely during the Term.  By submitting, posting or displaying your Content on or through the Platform you give Catalyze a worldwide, royalty-free, and non-exclusive license to reproduce, publish, publicly perform, publicly display such Content for the sole purpose of enabling Catalyze to provide you with the Platform solely during the Term.  Catalyze shall not:  (a) remove any copyright, trademark or other proprietary rights notices contained in or on your Content or your Applications; (b) rent, lease, lend, sell, sublicense, assign, distribute, publish, transfer or otherwise make your Content or your Applications available to any third party, except as expressly permitted by this Agreement; (c) use or authorize the use of the your Content or your Applications in any manner or for any purpose that is unlawful under applicable law; or (d) attempt to reverse compile, disassemble, reverse engineer, or derive the source code of all or any part of your Content or Customer Applications or underlying software.  You reserve all rights not expressly granted to Catalyze herein. 
 	
-	4.2	**Data Rights**. You agree that Catalyze may collect and use technical data and related information, including but not limited to technical information about your devices, your Application, servers, technologies, system and application software, and peripherals that Catalyze periodically gathers to facilitate the provisioning of Platform and its underlying software updates, product support and other services to you (if any) related to the Platform.  You agree to and hereby grant to Catalyze a non-exclusive, worldwide, royalty-free, fully paid-up, sub-licenseable license to use, reproduce, copy, modify, make derivative works  and otherwise exploit this technical data and related information as long as it is in a form that does not identify you or personally identify any of your end users and that it does not contain electronic Protected Health Information (“the ePHI”) in any form and it is for the purposes of providing the Platform to you and for developing, enhancing and supporting the Platform and its technologies.
+	4.2	**Data Rights**. You agree that Catalyze may collect and use technical data and related information, including but not limited to technical information about your devices, your Application, servers, technologies, system and application software, and peripherals that Catalyze periodically gathers to facilitate the provisioning of Platform and its underlying software updates, product support and other services to you (if any) related to the Platform.  You agree to and hereby grant to Catalyze a non-exclusive, worldwide, royalty-free, fully paid-up, sub-licenseable license to use, reproduce, copy, modify, make derivative works and otherwise exploit this technical data and related information as long as it is in a form that does not identify you or personally identify any of your end users and that it does not contain electronic Protected Health Information (ePHI) in any form and it is for the purposes of providing the Platform to you and for developing, enhancing and supporting the Platform and its technologies.
 	
 	4.3	**Customer Ideas**. You may choose to or Catalyze may invite you to submit comments or ideas about the Platform, including without limitation about how to improve the Platform or products (“Ideas”). By submitting any Idea, you agree that Customer’s disclosure is gratuitous, unsolicited and without restriction and will not place Catalyze under any fiduciary or other obligation, and that Catalyze is free to use the Ideas without any additional compensation to you, and/or to disclose the Ideas on a non-confidential basis or otherwise to anyone.
 	
@@ -118,7 +123,7 @@
 	5.4	**Pricing**.  The pricing for the Services will be set forth in each applicable Service Order with sufficient detail for you to be able to determine the cost associated with each Service. Catalyze reserves the right to unilaterally determine and modify its pricing for its Platform without any prior notice to you.  Where a Service Order is in effect, the pricing for the Platform shall remain at the agreed upon terms and conditions of that Service Order.  
 
 
-7.	**Compliance with HIPAA**.  The terms and conditions regarding both parties’ requirements or obligations under the Health Insurance Portability and Accountability Act of 1996, as amended (“HIPAA”), and the Health Information Technology for Economics and Clinical Health Act of 2009 (“the HITECH ACT”), shall come into effect only when both parties have agreed to in writing, as set forth in an associated Business Associate Agreement (BAA).
+7.	**Compliance with HIPAA**.  The terms and conditions regarding both parties’ requirements or obligations under the Health Insurance Portability and Accountability Act of 1996, as amended (“HIPAA”), and the Health Information Technology for Economics and Clinical Health Act of 2009 (“the HITECH ACT”), shall come into effect only when both parties have agreed to and executed, in writing, an associated Business Associate Agreement (BAA).
 
 8.	**Representations and Warranties by Catalyze**
 
@@ -126,9 +131,9 @@
 	
 9. 	**Representations and Warranties By Customer**
 
-	9.1	**Your Application**.  You represent and warrant that, except to the extent caused by the Services or Catalyze, your Application and any associated services, products, materials, data, Content, and information used by you in connection with this Agreement as well as your access to and use of the Platform do not and will not during the term of this Agreement operate in any manner that would violate any applicable law or regulation, including HIPAA (if a BAA is mutually accepted and entered into)
+	9.1	**Your Application**.  You represent and warrant that, except to the extent caused by the Services or Catalyze, your Application and any associated services, products, materials, data, Content, and information used by you in connection with this Agreement, as well as your access to and use of the Platform, do not and will not during the term of this Agreement operate in any manner that would violate any applicable law or regulation, including HIPAA (if a BAA is mutually accepted and entered into).
 	
-	9.2	**Your Data and Content**. You hereby represent, warrant and covenant that any materials, data, content, and information uploaded, transmitted, stored, or created by you in the course of using the Platform will comply with all applicable laws.
+	9.2	**Your Data and Content**. You hereby represent, warrant and covenant that any materials, data, content, and information uploaded, transmitted, stored, or created by you in the course of using the Platform will comply with all applicable laws, including HIPAA.
 
 
 10.	**Term and Termination**
