@@ -452,17 +452,20 @@ Violation of this policy and its procedures by workforce members may result in c
 
 <h2 id="backup-policy-and-procedures">Backup Policy and Procedures</h2>
 
-1. Data Backup:
-  2. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Catalyze Customers, including PaaS Customers that utilize the Catalyze Backup Service.
- 3. Catalyze Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
+2. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Catalyze Customers, including PaaS Customers that utilize the Catalyze Backup Service
+
+3. Catalyze Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
+
 4. Dev Ops Team members are trained and assigned assigned to complete backups and manage the backup media.
 
 5. Document backups completed.
     7. Name of the system
     9. Date & time of backup
     10. Where backup stored (or to whom it was provided)
- 11. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
-  13. Test backups and document that files have been completely and accurately restored from the backup media.
+
+11. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
+
+13. Test backups and document that files have been completely and accurately restored from the backup media.
 
 <h1 id="system-access-policy">System Access Policy</h1>
 Access to Catalyze systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis.  All users are responsible for reporting an incident of unauthorized user or access of the organization’s information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
