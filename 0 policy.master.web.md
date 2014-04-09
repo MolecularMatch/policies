@@ -434,11 +434,11 @@ All workforce members report non-compliance of Catalyze’s policies and procedu
 10. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation. 
 
 <h1 id="data-management-policy">Data Management Policy</h1>
-Catalyze has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjuction with Catalyze Add-ons and for PaaS Customers using our Backup Service. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested back-ups are available for all information systems used by Catalyze, Inc.
+Catalyze has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjuction with Catalyze Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Catalyze Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Catalyze.
   
-Data backup is an important part of the day-to-day operations of Catalyze. To protect the confidentiality, integrity, and availability of ePHI, both for Catalyze and Catalyze Customers, completes backups to assure that data remains available when it needed. Established guidelines and defined standards for accountability of hardware and electronic media containing ePHI further provide the confidentiality, integrity, availability, and security of ePHI.
+Data backup is an important part of the day-to-day operations of Catalyze. To protect the confidentiality, integrity, and availability of ePHI, both for Catalyze and Catalyze Customers, completes backups are done daily to assure that data remains available when it needed and in case of disaster.
 
-Failure to backup a system in the absence of a system failure is a violation of this policy and may result in corrective disciplinary action, up to and including termination of employment. Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment. Violation of this policy and procedures by others, including providers, providers' offices, developers, customers, business associates and partners may result in termination of the relationship and/or associated privileges.  Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
+Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -453,17 +453,15 @@ Failure to backup a system in the absence of a system failure is a violation of 
 <h2 id="backup-policy-and-procedures">Backup Policy and Procedures</h2>
 
 1. Data Backup:
-  2. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Catalyze Customers.
-    3. Catalyze Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
-    4. Train individual(s) assigned to complete backups and manage the backup media.
-  5. Document backups completed.
-    6. Site/location name
+  2. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Catalyze Customers, including PaaS Customers that utilize the Catalyze Backup Service.
+ 3. Catalyze Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
+4. Dev Ops Team members are trained and assigned assigned to complete backups and manage the backup media.
+
+5. Document backups completed.
     7. Name of the system
-    8. Type of data
     9. Date & time of backup
     10. Where backup stored (or to whom it was provided)
-  11. Store backups in a manner that protects them from loss or environmental damage.
-  12. Periodically store backups off-site (as deemed appropriate).
+ 11. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
   13. Test backups and document that files have been completely and accurately restored from the backup media.
 
 <h1 id="system-access-policy">System Access Policy</h1>
