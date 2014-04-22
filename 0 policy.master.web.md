@@ -1149,7 +1149,7 @@ If the Catalyze environment is moved back to the original site from the alternat
 <h1 id="disposable-media-policy">Disposable Media Policy</h1>
 Catalyze recognizes that media containing ePHI may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
 
-Catalyze utilizes dedicated hardware from Subcontractors. ePHI is only stored on SD volumes in our hosted environment. All SD volumes utilized by Catalyze and Catalyze Customers are encrypted. Catalyze does not use, own, or manage any mobile devices, SSD cards, or tapes that have access to ePHI.
+Catalyze utilizes dedicated hardware from Subcontractors. ePHI is only stored on SSD volumes in our hosted environment. All SSD volumes utilized by Catalyze and Catalyze Customers are encrypted. Catalyze does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -1173,11 +1173,14 @@ Catalyze utilizes dedicated hardware from Subcontractors. ePHI is only stored on
 
 5.  All Catalyze Subcontractors provide that, upon termination of the contract, they will return or destroy/dispose of all patient health information. In cases where the return or destruction/disposal is not feasible, the contract limits the use and disclosure of the information to the purposes that prevent its return or destruction/disposal.  
 
-6.  A record of all ePHI media sanitization is retained by the organization.
-
-9.  Any media containing ePHI is disposed using a method that ensures the ePHI could not be recovered or reconstructed.
+9.  Any media containing ePHI is disposed using a method that ensures the ePHI could not be readily recovered or reconstructed.
 
 4. The methods of destruction, disposal, and reuse are reassessed periodically, based on current technology, accepted practices, and availability of timely and cost-effective destruction, disposal, and reuse technologies and services.
+
+5. In the cases of a Catalyze Customer terminating a contract with Catalyze and not longer utilize Catalyze Services, the following actions will be taken depending on the Catalyze Services in use. In all cases it is solely the responsibility of the Catalyze Customer to maintain the safeguards required of HIPAA once the data is transmitted out of Catalyze Systems.
+
+	* In the case of BaaS Customer termination, Catalyze will provide the customer with the ability to export data in commonly used format, currently CSV, for 30 days from the time of termination.
+	* In the case of PaaS Customer termination, Catalyze will provide the customer with 30 days from the date of termination to export data.
 
 <h1 id="ids-policy">IDS Policy</h1>
 In order to preserve the integrity of data that Catalyze stores, processes, or transmits for Customers, Catalyze implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. Catalyze currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
