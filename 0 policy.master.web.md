@@ -1202,6 +1202,35 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
 
+<h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
+Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
+
+<h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
+
+*  10.m - Control of Technical Vulnerabilities
+
+<h2 id="applicable-standards-from-the-hipaa-security-rule">Applicable Standards from the HIPAA Security Rule</h2>
+
+* 164.308(a)(8) - Evaluation
+
+<h2 id="vulnerability-scanning-policy">Vulnerability Scanning Policy</h2>
+
+* Nessus management is performed by the Catalyze Security Officer with assistance from the VP of Engineering.
+
+* Nessus is used to monitor all internal IP addresses (servers, VMs, etc) on Catalyze networks.
+
+* Frequency of scanning is as follows:
+	* 1) on a weekly basis; and
+	* 2) after every production deployment.* Reviewing Nessus reports and findings, as well as any further investigation into discovered vulnerabilities, are the responsibility of the Catalyze Security Officer.
+
+* In the case of new vulnerabilities, the following steps are taken:
+	* All new vulnerabilities are verified manually to assure they are repeatable. Those not found to be repeatable are manually tested after the next vulnerability scan, regardless of if the specific vulnerability is discovered again.
+	* Vulnerabilities that are repeatable manually are documented and reviewed by the Security Officer, VP of Engineering, and Privacy Officer to see if they are part of the current risk assessment performed by Catalyze.
+		* Those thare are a part of the current risk assessment are checked for mitigations.
+		* Those that are not part of the current risk assessment trigger a new risk assessment, and this process is outlined in detail in the Catalyze Risk Assessment Policy.
+
+* All vulnerability scanning reports are retained for 6 years by Catalyze.
+
 <h1 id="employees-policy">Employees Policy</h1>
 Catalyze is committed to ensuring all workforce members actively address security and compliance in their roles at Catalyze. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
