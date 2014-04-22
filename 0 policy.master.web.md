@@ -47,7 +47,7 @@ All Platform Add-ons and operating systems are tested end-to-endfor usability, s
 
 <h2 id="version-control">Version Control</h2>
 
-Policies were last updated April 4th, 2014.
+Policies were last updated April 11th, 2014.
 
 <h1 id="hipaa-inheritance-for-paas-customers">HIPAA Inheritance for PaaS Customers</h1>
 
@@ -159,7 +159,9 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 
 4. All policies are made accessible to all Catalyze workforce members.
 
-5. All policies, and associated documentation, is retaiend for 6 years from the date of its creation or the date when it last was in effect, whichever is later. 
+5. All policies, and associated documentation, are retaiend for 6 years from the date of its creation or the date when it last was in effect, whichever is later
+    6. Version history of all Catalyze policies is done via Git
+    7. Backup storage of all policies is done with Box.
 
 Additional documentation related to maintenance of policies is outlined in the Security officers [responsibilities](#roles).
 
@@ -170,7 +172,7 @@ This policy establishes the scope, objectives, and procedures of Catalyze's info
 
 * 03.a - Risk Management Program Development
 * 03.b - Performing Risk Assessments
-*  03.c - Risk Mitigation
+* 03.c - Risk Mitigation
 
 <h2 id="applicable-standards-from-the-hipaa-security-rule">Applicable Standards from the HIPAA Security Rule</h2>
 
