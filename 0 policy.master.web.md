@@ -503,7 +503,7 @@ Access to Catalyze systems and application is limited for all users, including b
 <h2 id="access-establishment-and-modification">Access Establishment and Modification</h2>
 
 * Requests for access to Catalyze Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
-  * Access is not granted until receipt, review, and approval by one of the workforce roles listed above;
+  * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
   * The request for access is retained for future reference.
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
@@ -1261,6 +1261,8 @@ Catalyze is committed to ensuring all workforce members actively address securit
 5. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonomously report security incidents, and the levels of compliance and obligations for Catalyze and its Customers and Partners.
 
 6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
+
+7. Access to internal Catalyze systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer.  
 
 <h1 id="approved-tools-policy">Approved Tools Policy</h1>
 Catalyze utilizes a suite of approved software tools for internal use by workforce members. These software tools are either self hosted, with security managed by Catalyze, or they are hosted by a Subcontractor with appropriate business associate agreements in place to preserve data integrity. Use of other tools require approval from Catalyze leadership.
