@@ -1017,7 +1017,7 @@ travis@catalyze.io
 303-351-2640
 
 <h1 id="disaster-recover-policy">Disaster Recover Policy</h1>
-The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Disaster Recovery Service. 
+The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Disaster Recovery Service. This Disaster Recovery Policy is maintained by the Catalyze Security Officer and Privacy Officer.
 
 The following objectives have been established for this plan: 
 
@@ -1025,7 +1025,8 @@ The following objectives have been established for this plan:
   3. *Notification/Activation phase* to detect and assess damage and to activate the plan;
   4. *Recovery phase* to restore temporary IT operations and recover damage done to the original system;
   5. *Reconstitution phase* to restore IT system processing capabilities to normal operations.
-6. Identify the activities, resources, and procedures needed to carry out Catalyze processing requirements during prolonged interruptions to normal operations. 
+6. Identify the activities, resources, and procedures needed to carry out Catalyze processing requirements during prolonged interruptions to normal operations.
+7. Identify and define the impact of interruptions to Catalyze systems.
 7. Assign responsibilities to designated OPDIV personnel and provide guidance for recovering Catalyze during prolonged periods of interruption to normal operations. 
 8. Ensure coordination with other Catalyze staff who will participate in the contingency planning strategies.
 9. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies. 
@@ -1047,7 +1048,12 @@ The Catalyze Contingency Plan also complies with the following federal and depar
 * Federal Emergency Management Agency (FEMA), The Federal Response Plan (FRP), April 1999;
 * Defense Authorization Act (Public Law 106-398), Title X, Subtitle G, “Government Information Security Reform,” October 30, 2000
 
-Example of the types of disasters that would initiate this plan are natural disaster, political disturbances, man made disaster, external human threats, internal malicious activties.
+Example of the types of disasters that would initiate this plan are natural disaster, political disturbances, man made disaster, external human threats, internal malicious activities.
+
+Catalyze defined two categories of systems from a disaster recovery perspective.
+
+1. Critical Systems. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
+2. Non-critical Systems. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -1116,7 +1122,7 @@ Contact information for key personnel is located in Appendix A. The notification
 
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities. 
 
-The following procedures are for recovering the Catalyze infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations. 
+The following procedures are for recovering the Catalyze infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations.
 
 Recovery Goal: The goal is to rebuild Catalyze infrastructure to a production state.
 
@@ -1124,26 +1130,27 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 1.  Contact Partners and Customers affected - Web Services
 2.  Assess damage to the environment - Web Services
-3.  Begin replication of new environment. A this point it is determined whether to recover in AWS or in Rackspace. - Dev Ops
+3.  Begin replication of new environment using automated and tested scrips, currently Salt. A this point it is determined whether to recover in AWS or in Rackspace. - Dev Ops
 4.  Test new environment using pre-written tests - Web Services
 5. Test logging, security, and alerting functionality - Dev Ops
+6. Assure systems are appropriately patched and up to date. - Dev Ops
 6. Deploy environment to production - Web Services
 7. Update DNS to new environment. - Dev Ops
 
 <h2 id="3.-reconstitution-phase">3. Reconstitution Phase</h2>
-This section discusses activities necessary for restoring Catalyze operations at the original or new site. When the hosted data center at the original or new site has been restored, Catalyze operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
+This section discusses activities necessary for restoring Catalyze operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, Catalyze operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
-  * Begin replication of new environment. - Dev Ops
+  * Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
   * Test new environment using pre-written tests. - Web Services
   * Test logging, security, and alerting functionality. - Dev Ops
+  * Assure systems are appropriately patched and up to date. - Dev Ops
   * Deploy environment to production - Web Services
   * Update DNS to new environment. - Dev Ops
 
 1. Plan Deactivation
 
 If the Catalyze environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Catalyze Media Disposal Policy. 
-
 
 
 <h1 id="disposable-media-policy">Disposable Media Policy</h1>
