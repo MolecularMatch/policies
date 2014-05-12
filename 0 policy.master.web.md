@@ -24,7 +24,7 @@ Below are mappings of HIPAA Rules to Catalyze controls and a mapping of what Rul
 
 <h2 id="catalyze-organizational-concepts">Catalyze Organizational Concepts</h2>
 
-The physical infrastructure environment is hosted at Rackspace and Amazon Web Services (AWS). The network components and supporting network infrastructure is contained within AWS and Rackspace infrastructure and managed by Rackspace and AWS. Catalyze does not have physical access into the network components. The Catalyze environment consists of Cisco firewalls, Apache web servers, Dropwizard Java application servers, Percona and Riak database servers, Logstash logging servers, Linux Ubuntu monitoring servers, Puppet access control server, OSSEC IDS services, Docker containers, Linux CentOS bastion host, and developer tools servers running on Linux Ubuntu.
+The physical infrastructure environment is hosted at [Rackspace](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf) and Amazon Web Services (AWS). The network components and supporting network infrastructure is contained within AWS and Rackspace infrastructure and managed by Rackspace and AWS. Catalyze does not have physical access into the network components. The Catalyze environment consists of Cisco firewalls, Apache web servers, Dropwizard Java application servers, Percona and Riak database servers, Logstash logging servers, Linux Ubuntu monitoring servers, Puppet access control server, OSSEC IDS services, Docker containers, Linux CentOS bastion host, and developer tools servers running on Linux Ubuntu.
 
 Within the Catalyze Platform, both on Rackspace and AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containes, databases, APIs, log servers, etc. Catalyze assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
@@ -730,7 +730,7 @@ B.  Available storage space.
 <h1 id="facility-access-policy">Facility Access Policy</h1>
 Catalyze works with Subcontractors to assure restriction of physical access to systems used as part of the Catalyze Platform. Catalyze and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Catalyze workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications.  Physical Access to all of Catalyze facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons.  All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Catalyze’s facility.
 
-Of note, Catalyze does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Catalyze does not house any systems used by its Platform in Catalyze facilities.
+Of note, Catalyze does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Catalyze does not physically house any systems used by its Platform in Catalyze facilities. Physical security of our Platform servers is outlined [here](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf).
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -930,7 +930,7 @@ In the case of a breach, Catalyze shall notify all affected Customers. It is the
 <h2 id="catalyze-breach-policy">Catalyze Breach Policy</h2>
 1.  Discovery of Breach:  A breach of ePHI shall be treated as “discovered” as of the first day on which such breach is known to the organization, or, by exercising reasonable diligence would have been known to Catalyze (includes breaches by the organization’s Customers, Partners, or subcontractors). Catalyze shall be deemed to have knowledge of a breach if such breach is known or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or Partner of the organization.  Following the discovery of a potential breach, the organization shall begin an investigation (see organizational policies for security incident response and/or risk management incident response) immediately, conduct a risk assessment, and based on the results of the risk assessment, begin the process to notify each Customer affected by the breach.  Catalyze shall also begin the process of determining what external notifications are required or should be made (e.g., Secretary of Department of Health & Human Services (HHS), media outlets, law enforcement officials, etc.)
   
-2.  Breach Investigation: The Catalyze Security Officer shall name an individual to act as the investigator of the breach (e.g., privacy officer, security officer, risk manager, etc.).  The investigator shall be responsible for the management of the breach investigation, completion of a risk assessment, and coordinating with others in the organization as appropriate (e.g., administration, security incident response team, human resources, risk management, public relations, legal counsel, etc.)  The investigator shall be the key facilitator for all breach notification processes to the appropriate entities (e.g., HHS, media, law enforcement officials, etc.).  All documentation related to the breach investigation, including the risk assessment, shall be retained for a minimum of six years. A template breach log is located [here](./breach.log.pdf).
+2.  Breach Investigation: The Catalyze Security Officer shall name an individual to act as the investigator of the breach (e.g., privacy officer, security officer, risk manager, etc.).  The investigator shall be responsible for the management of the breach investigation, completion of a risk assessment, and coordinating with others in the organization as appropriate (e.g., administration, security incident response team, human resources, risk management, public relations, legal counsel, etc.)  The investigator shall be the key facilitator for all breach notification processes to the appropriate entities (e.g., HHS, media, law enforcement officials, etc.).  All documentation related to the breach investigation, including the risk assessment, shall be retained for a minimum of six years. A template breach log is located [here](../assets/breach.log.pdf).
 
 3.  Risk Assessment:  For an acquisition, access, use or disclosure of ePHI to constitute a breach, it must constitute a violation of the HIPAA Privacy Rule. A use or disclosure of ePHI that is incident to an otherwise permissible use or disclosure and occurs despite reasonable safeguards and proper minimum necessary procedures would not be a violation of the Privacy Rule and would not qualify as a potential breach. To determine if an impermissible use or disclosure of ePHI constitutes a breach and requires further notification, the organization will need to perform a risk assessment to determine if there is significant risk of harm to the individual as a result of the impermissible use or disclosure. The organization shall document the risk assessment as part of the investigation in the incident report form noting the outcome of the risk assessment process. The organization has the burden of proof for demonstrating that all notifications to appropriate Customers or that the use or disclosure did not constitute a breach. Based on the outcome of the risk assessment, the organization will determine the need to move forward with breach notification. The risk assessment and the supporting documentation shall be fact specific and address:
   * Consideration of who impermissibly used or to whom the information was impermissibly disclosed;
@@ -1011,8 +1011,8 @@ Sincerely,
 
 
 
-Travis Good
-Co-founder, Catalyze, Inc
+Travis Good, MD
+Co-founder - Catalyze, Inc
 travis@catalyze.io
 303-351-2640
 
@@ -1052,8 +1052,8 @@ Example of the types of disasters that would initiate this plan are natural disa
 
 Catalyze defined two categories of systems from a disaster recovery perspective.
 
-1. Critical Systems. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
-2. Non-critical Systems. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
+1. *Critical Systems*. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
+2. *Non-critical Systems*. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -1122,7 +1122,7 @@ Contact information for key personnel is located in Appendix A. The notification
 
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities. 
 
-The following procedures are for recovering the Catalyze infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations.
+The following procedures are for recovering the Catalyze infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations. 
 
 Recovery Goal: The goal is to rebuild Catalyze infrastructure to a production state.
 
@@ -1144,13 +1144,14 @@ This section discusses activities necessary for restoring Catalyze operations at
   * Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
   * Test new environment using pre-written tests. - Web Services
   * Test logging, security, and alerting functionality. - Dev Ops
-  * Assure systems are appropriately patched and up to date. - Dev Ops
   * Deploy environment to production - Web Services
+  * Assure systems are appropriately patched and up to date. - Dev Ops
   * Update DNS to new environment. - Dev Ops
 
 1. Plan Deactivation
 
 If the Catalyze environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Catalyze Media Disposal Policy. 
+
 
 
 <h1 id="disposable-media-policy">Disposable Media Policy</h1>
@@ -1228,7 +1229,9 @@ Catalyze is proactive about information security and understands that vulnerabil
 
 * Frequency of scanning is as follows:
 	* 1) on a weekly basis; and
-	* 2) after every production deployment.* Reviewing Nessus reports and findings, as well as any further investigation into discovered vulnerabilities, are the responsibility of the Catalyze Security Officer.
+	* 2) after every production deployment.
+
+* Reviewing Nessus reports and findings, as well as any further investigation into discovered vulnerabilities, are the responsibility of the Catalyze Security Officer.
 
 * In the case of new vulnerabilities, the following steps are taken:
 	* All new vulnerabilities are verified manually to assure they are repeatable. Those not found to be repeatable are manually tested after the next vulnerability scan, regardless of if the specific vulnerability is discovered again.
@@ -1257,7 +1260,9 @@ Catalyze is committed to ensuring all workforce members actively address securit
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
   * Records of training are kept for all workforce members.
+  *   * Upon completion of training, workforce members complete this [form](https://docs.google.com/a/catalyze.io/forms/d/1bmEK3TidACj6ForBqGMaINPjIckv9ht28rtkGEQsBGs/viewform?usp=send_form).
   * Ongoing security training is conducted monthly.
+  * Current Catalyze training is hosted [here](https://training.catalyze.io/).
 
 2. All workforce members are granted access to formal organizational policies, which include the sanction sanction policy for security violations.
 
@@ -1269,7 +1274,7 @@ Catalyze is committed to ensuring all workforce members actively address securit
 
 6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 
-7. Access to internal Catalyze systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer.  
+7. Access to internal Catalyze systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer. 
 
 <h1 id="approved-tools-policy">Approved Tools Policy</h1>
 Catalyze utilizes a suite of approved software tools for internal use by workforce members. These software tools are either self hosted, with security managed by Catalyze, or they are hosted by a Subcontractor with appropriate business associate agreements in place to preserve data integrity. Use of other tools require approval from Catalyze leadership.
