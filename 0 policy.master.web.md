@@ -165,6 +165,8 @@ Catalyze implements policies and procedures to maintain compliance and integrity
  
 8. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Catalyze management to assure all risks and potential gaps are mitigated and/or fully addressed.
 
+9. Catalyze utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Catalyze also tracks compliance with HIPAA and publishes results [here](https://catalyze.io/hipaa/).
+
 Additional documentation related to maintenance of policies is outlined in the Security officers [responsibilities](#roles).
 
 <h1 id="risk-management-policy">Risk Management Policy</h1>
@@ -754,6 +756,10 @@ Catalyze standardizes and automates configuration management through the use of 
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
 3. No systems are deployed into Catalyze environments without approval of the Catalyze VP of Engineering.
 4. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
+5. All software and systems are tested using unit tests and end to end tests.
+6. Catalyze utilizes development and staging environments that mirror production to assure proper function.
+7. Catalyze also deploys envrironments locally using Vagrant to assure functionality before moving to staging or production.
+8. Catalyze schedules production deployments every four weeks.
 
 <h1 id="facility-access-policy">Facility Access Policy</h1>
 Catalyze works with Subcontractors to assure restriction of physical access to systems used as part of the Catalyze Platform. Catalyze and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Catalyze workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications.  Physical Access to all of Catalyze facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons.  All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Catalyze’s facility.
