@@ -163,7 +163,7 @@ Catalyze implements policies and procedures to maintain compliance and integrity
     6. Version history of all Catalyze policies is done via Git
     7. Backup storage of all policies is done with Box.
  
-8. The policies and information security policies are reviewed and audited annually. 
+8. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Catalyze management to assure all risks and potential gaps are mitigated and/or fully addressed.
 
 Additional documentation related to maintenance of policies is outlined in the Security officers [responsibilities](#roles).
 
@@ -1296,6 +1296,8 @@ Catalyze is committed to ensuring all workforce members actively address securit
 2. All workforce members are granted access to formal organizational policies, which include the sanction sanction policy for security violations.
 
 3. The Catalyze Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices and social media usage.
+
+4. Catalyze does not allow mobile devices to connec to any of its production networks. 
 
 4. All workforce members are educated about the approved set of tools to be installed on workstations.
 
