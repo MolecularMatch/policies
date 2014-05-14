@@ -162,6 +162,8 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 5. All policies, and associated documentation, are retaiend for 6 years from the date of its creation or the date when it last was in effect, whichever is later
     6. Version history of all Catalyze policies is done via Git
     7. Backup storage of all policies is done with Box.
+ 
+8. The policies and information security policies are reviewed and audited annually. 
 
 Additional documentation related to maintenance of policies is outlined in the Security officers [responsibilities](#roles).
 
@@ -533,7 +535,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Information systems automatically log users off the systems after 10 minutes of inactivity.
 * The Security Officer pre-approves exceptions to automatic log off requirements.
 
-<h2 id="workstation-use">Workstation Use</h2>
+<h2 id="workstation-use">Employee Workstation Use</h2>
 All workstations at Catalyze are company owned, and all are laptop Apple products running Mac operating system.
 
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
@@ -546,7 +548,7 @@ All workstations at Catalyze are company owned, and all are laptop Apple product
   * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 
 
-<h2 id="termination-procedures">Termination Procedures</h2>
+<h2 id="termination-procedures">Employee Termination Procedures</h2>
 
 * The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the “Termination Checklist".
 * The Human Resources Department, users, and supervisors are required to notify the IS Help Desk to terminate a user’s access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
@@ -569,6 +571,11 @@ Catalyze does not use paper records for any sensitive information. Use of paper 
 * All default system, application, and Partner passwords are changed before deployment to production.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
+
+<h2 id="workforce-clearance-procedures">PaaS Customer Access to Systems</h2>
+Catalzye grants customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
+
+In the case of data migration, Catalyze does, on a case by case basis, support customers in importing data. In these cases Catalyze support SCP assuring all data is secured and encrypted in transit.
 
 <h1 id="auditing-policy">Auditing Policy</h1>
 Catalyze shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.  Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Catalyze shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
@@ -616,6 +623,8 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
   6. Network:  Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 
 3. Catalyze shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Catalyze.
+
+4. Catalyze utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
 
 4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
 
@@ -726,6 +735,21 @@ B.  Available storage space.
 * Remote access use and activity.
 * Activity post termination.
 * Random audits.
+
+<h1 id="configuration-management-policy">Configuration Management Policy</h1>
+Catalyze standardizes and automates configuration management through the use of Salt scripts. Salt automatically configures all Catalyze systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
+
+<h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
+
+*  06 - Configuration Management
+
+<h2 id="applicable-standards-from-the-hipaa-security-rule">Applicable Standards from the HIPAA Security Rule</h2>
+
+* 164.310(a)(2)(iii) Access Control & Validation Procedures
+
+<h2 id="catalyze-configuration-management-policies">Configuration Management</h2>
+1. Salt is used to standardize and automate configuration management.
+2. OSSEC is used to scan systems every 2 hours and on reboot.
 
 <h1 id="facility-access-policy">Facility Access Policy</h1>
 Catalyze works with Subcontractors to assure restriction of physical access to systems used as part of the Catalyze Platform. Catalyze and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Catalyze workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications.  Physical Access to all of Catalyze facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons.  All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Catalyze’s facility.
