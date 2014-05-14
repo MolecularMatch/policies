@@ -528,6 +528,8 @@ Access to Catalyze systems and application is limited for all users, including b
 * Access to the Catalyze Platform systems and applications is controlled by requiring unique User Login ID’s and passwords for each individual user and developer.
 * Passwords requirements mandate strong password controls (see below).
 * Passwords are not displayed at any time and are not transmitted or stored in plain text.
+* Default accounts on all production systems, including root, are disabled.
+
 
 <h2 id="automatic-logoff">Automatic Logoff</h2>
 
@@ -572,8 +574,8 @@ Catalyze does not use paper records for any sensitive information. Use of paper 
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
-<h2 id="workforce-clearance-procedures">PaaS Customer Access to Systems</h2>
-Catalzye grants customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
+<h2 id="paas-customer-access">PaaS Customer Access to Systems</h2>
+Catalzye grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
 
 In the case of data migration, Catalyze does, on a case by case basis, support customers in importing data. In these cases Catalyze support SCP assuring all data is secured and encrypted in transit.
 
@@ -1235,6 +1237,7 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * OSSEC generates alerts to analyze and investigate suspicious activity or suspected violations.
 * OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
+* Catalyze firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
 
 <h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
 Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
