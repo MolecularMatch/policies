@@ -656,7 +656,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
   * Testing may be carried out internally or provided through an external third-party vendor.  Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services – separation of duties).
   * Testing shall be done on a routine basis, currently monthly.
 
-8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production.
+8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all patches are applied within 90 days after testing.
   * In the case of PaaS Customers, updates to Application and Database versions are the responsibilty of Customers, though Catalyze will, at it's own discretion, notify and recommend updates to customer systems.
 
   
@@ -1280,6 +1280,10 @@ Catalyze is proactive about information security and understands that vulnerabil
 
 * All vulnerability scanning reports are retained for 6 years by Catalyze.
 
+* Penetration testing is performed annually.
+
+* This vulnerability policy is reviewed on a quarterly basis by the Security Officer and Privacy Officer.
+
 <h1 id="integrity-policy">Data Integrity Policy</h1>
 Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
 
@@ -1316,7 +1320,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 **Intrusion Detection and Vulnerability Scanning**
 
 * Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
-* Vulnerability scanning of Confidential Systems must occur on a predetermined, regular basis, no less than annually. Vulnerability scans must be reviewed by trained personnel and, when appropriate, reported as per the WCMC incident reporting policy.
+* Vulnerability scanning of Prooduction Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weeky. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
 **Production System Security**
 
