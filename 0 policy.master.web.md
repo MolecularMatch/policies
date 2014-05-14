@@ -509,6 +509,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Requests for access to Catalyze Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
   * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
   * The request for access is retained for future reference.
+  * All access to Catalyze systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commiserate with job functions. 
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
 
@@ -755,8 +756,11 @@ Catalyze standardizes and automates configuration management through the use of 
 1. Salt is used to standardize and automate configuration management.
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
 3. No systems are deployed into Catalyze environments without approval of the Catalyze VP of Engineering.
+4. An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Box. All systems are categorized as production and utility to differentiate based on criticality.
+5. Clocks are synchronized across all systems using NTP.
 4. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
 5. All software and systems are tested using unit tests and end to end tests.
+6. All commited code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
 6. Catalyze utilizes development and staging environments that mirror production to assure proper function.
 7. Catalyze also deploys envrironments locally using Vagrant to assure functionality before moving to staging or production.
 8. Catalyze schedules production deployments every four weeks.
@@ -1275,6 +1279,61 @@ Catalyze is proactive about information security and understands that vulnerabil
 		* Those that are not part of the current risk assessment trigger a new risk assessment, and this process is outlined in detail in the Catalyze Risk Assessment Policy.
 
 * All vulnerability scanning reports are retained for 6 years by Catalyze.
+
+<h1 id="integrity-policy">Data Integrity Policy</h1>
+Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
+
+<h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
+
+*  10.b - Input Data Validation
+
+<h2 id="applicable-standards-from-the-hipaa-security-rule">Applicable Standards from the HIPAA Security Rule</h2>
+
+* 164.308(a)(8) - Evaluation
+
+<h2 id="data-integrity-policy">Data integrity Policy</h2>
+
+Production Systems that create, receive, store, or transmit customer data (hereafter "Production Systems") must follow the following guidelines.
+
+**Disabling non-essential services**
+
+* All Production Systems must disable services that are not required to achieve the business purpose or function of the system. 
+
+**Monitoring Log-in Attempts**
+
+* All access to Production Systems must be logged. This is done following the Catalyze Auditing Policy.
+
+**Prevention of malware on Production Systems**
+
+* All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+* All Production Systems are to only be used for Catalyze business needs.
+
+**Patch Management**
+
+* Patches, application, and system OS versions are kept up to date at all times. New versions are tested.
+* Administrators subscribe to mailing lists to assure up to date on current version of all Catalyze managed software on Production Systems.
+
+**Intrusion Detection and Vulnerability Scanning**
+
+* Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
+* Vulnerability scanning of Confidential Systems must occur on a predetermined, regular basis, no less than annually. Vulnerability scans must be reviewed by trained personnel and, when appropriate, reported as per the WCMC incident reporting policy.
+
+**Production System Security**
+
+* System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
+
+**Production Data Security**
+
+* Reduce the risk of compromise of Production Data.
+* Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
+* Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
+* Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
+
+**Transmission Security**
+
+* All data transmission is encrypted end to end.
+* In the case of Catalyze provided APIs, provide mechanisms to assure person sending or recieving data is authorized to send and save data.
+* System logs of all transmissions of Production Data access. These logs must be available for audit.
 
 <h1 id="employees-policy">Employees Policy</h1>
 Catalyze is committed to ensuring all workforce members actively address security and compliance in their roles at Catalyze. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
