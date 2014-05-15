@@ -1291,7 +1291,11 @@ Catalyze is proactive about information security and understands that vulnerabil
 
 * All vulnerability scanning reports are retained for 6 years by Catalyze.
 
-* Penetration testing is performed annually.
+* Penetration testing is performed regularly as part of the Catalyze vulnerability management policy.
+	* External penetration testing is performed bi-annually by a third party.
+	* Internal penetration testing is performed quarterly.
+	* Gaps and vulnerabilities identified during penetration testing are reviewed, with plans for correction and/or mitigation, by the Catalyze Security Officer.
+	* Penetration tests results are retained for 6 years by Catalyze.
 
 * This vulnerability policy is reviewed on a quarterly basis by the Security Officer and Privacy Officer.
 
@@ -1343,6 +1347,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 * Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 * Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
+* All Production Data at rest is stored on encryopted volumes.
 
 **Transmission Security**
 
