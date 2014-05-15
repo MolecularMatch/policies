@@ -510,6 +510,7 @@ Access to Catalyze systems and application is limited for all users, including b
   * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
   * The request for access is retained for future reference.
   * All access to Catalyze systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commiserate with job functions. 
+  * Access to systems is controlled using centralized user management and authenticatio. All authentication requests are to utilize two factor authentication using mobile devices as the second factor.
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
 
@@ -520,6 +521,7 @@ Access to Catalyze systems and application is limited for all users, including b
 <h2 id="access-authorization">Access Authorization</h2>
 
 * Role based access categories for each Catalyze system and application are pre-approved by the Security Officer or VP of Engineering.
+* Catalyze utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
 <h2 id="person-or-entity-authentication">Person or Entity Authentication</h2>
 
@@ -582,6 +584,8 @@ Catalzye grants PaaS customer secure system access via VPN connections. This acc
 
 In the case of data migration, Catalyze does, on a case by case basis, support customers in importing data. In these cases Catalyze support SCP assuring all data is secured and encrypted in transit.
 
+In the case of an investigation, Catalyze will assist customers, at Catalyze's discretion, and law enforcement in forensics.
+
 <h1 id="auditing-policy">Auditing Policy</h1>
 Catalyze shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.  Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Catalyze shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
@@ -620,6 +624,8 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
   2. Assign the task of generating reports for audit activities to the workforce member responsible for the application, system, or network;
   3. Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
   4. Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
+  
+5. All connections to Catalyze are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis. 
 
 2.  Catalyze’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Custoners, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
   3. User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
@@ -1248,6 +1254,8 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
 * Catalyze firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
+* All new firewall rules and confiuration changes are tested before being pushed into production.
+* Catalyze utilizes redudant firewall on network perimeters.
 
 <h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
 Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
@@ -1335,7 +1343,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 **Transmission Security**
 
-* All data transmission is encrypted end to end.
+* All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
 * In the case of Catalyze provided APIs, provide mechanisms to assure person sending or recieving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
 
@@ -1408,7 +1416,7 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
   * Controls implemented to maintain compliance;
   * Written agreements, with appropriate security requirements, is executed.
 
-2. All connections and data in transit between Catalyze Platform and 3rd parties are encrypted.
+2. All connections and data in transit between the Catalyze Platform and 3rd parties are encrypted end to end.
 
 3. Access granted to external parties is limited to the minimum necessary and granted only for the duration required.
 
