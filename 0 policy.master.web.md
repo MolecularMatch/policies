@@ -637,6 +637,8 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 
 4. Catalyze utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
 
+5. Catalyze uses Nagios to monitor systems in its evironment. 
+
 4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
 
 5. Catalyze uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
@@ -1254,8 +1256,9 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
 * Catalyze firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
-* All new firewall rules and confiuration changes are tested before being pushed into production.
+* All new firewall rules and confiuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
 * Catalyze utilizes redudant firewall on network perimeters.
+* Statis IP addresses are used for Catalyze servers.
 
 <h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
 Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
@@ -1344,6 +1347,8 @@ Production Systems that create, receive, store, or transmit customer data (herea
 **Transmission Security**
 
 * All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
+* Encryption keys and machines that generate keys are protected from unathorized access.
+* Encryption keys are limited to use for one year and then must be regenerated.
 * In the case of Catalyze provided APIs, provide mechanisms to assure person sending or recieving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
 
