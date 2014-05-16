@@ -1,22 +1,26 @@
 #Catalyze Acceptable Use Policy
 
-This Acceptable Use Policy describes actions that Catalyze prohibits when any person uses the Catalyze Services, including parties (“Customer”) to a separate agreement with Catalyze who use the Catalyze Services.   In the event of a conflict between this Acceptable Use Policy and an underlying Agreement with a Customer, the underlying Agreement shall govern. 
+This Acceptable Use Policy describes actions that Catalyze prohibits when any person uses the Catalyze Services ("Services"), including parties (“Customer”) to a separate agreement with Catalyze who use the Catalyze Services.   In the event of a conflict between this Acceptable Use Policy and an underlying Agreement with a Customer, the underlying Agreement shall govern. 
 
-The Catalyze Services may not be used in any illegal, abusive or other manner that interferes with the business or activities of any other party. The following list gives examples of prohibited actions, including types of email and content. This list is provided by way of example and should not be considered exhaustive.
+The Catalyze Services may not be used in any illegal, abusive or other manner that interferes with the business or activities of any other party, including being used in violation of HIPAA. The following list gives examples of prohibited actions, including types of email and content. This list is provided by way of example and should not be considered exhaustive.
 
 ##Prohibited Actions
 
-- Attempting to bypass or break any security mechanism on any of the Catalyze Services or using the Catalyze Services in any other manner that poses a security or service risk to Catalyze or any of its users.
+- Attempting to bypass or break any security mechanism on any of the Catalyze Services or using the Catalyze Services in any other manner that poses a security or service risk to Catalyze or any of its users or customers.
 
  - Testing or reverse-engineering the Catalyze Services in order to find limitations, vulnerabilities or evade filtering capabilities.
 
- - Remove any copyright, trademark or other proprietary rights notices contained in or on the Services;
+ - Removing any copyright, trademark or other proprietary rights notices contained in or on the Services;
 
- - Reformat or frame any portion of the web pages that are part of the Services’ administration display without Catalyze’s permission.
+ - Reformatting or framing any portion of the web pages that are part of the Services’ administration display without Catalyze’s permission.
 
- - Use the Platform in connection with illegal peer-to-peer file sharing.
+ - Using the Catalyze Platform in connection with illegal peer-to-peer file sharing.
 
  - Launching or facilitating, whether intentionally or unintentionally, a denial of service attack on any of the Catalyze Services or any other conduct that adversely impacts the availability, reliability or stability of the Catalyze Services.
+ 
+- Reusing, without explicit permission, documentation, policies, or other content provided by Catalyze.
+
+- Utilizing Catalyze Services in a way that knowingly violates HIPAA rules.
 
 ##Prohibited Content
  
@@ -85,5 +89,5 @@ The Catalyze Services may not be used in any illegal, abusive or other manner th
  - Customer agrees that Catalyze has no responsibility or liability for the deletion or failure to store any Customer content and other communications maintained or transmitted through use of the Service.
 
 ---
-*Last Updated: April 24, 2014*
+*Last Updated: May 15, 2014*
 
