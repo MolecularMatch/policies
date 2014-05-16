@@ -157,13 +157,14 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 
 3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similarly to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
 
-4. All policies are made accessible to all Catalyze workforce members.
+4. All policies are made accessible to all Catalyze workforce members. The current master policies are published [here](https://catalyze.io/policy/).
+	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1KrVAq6O1s4VpD9zSPUFUrd2dkasbY_5wvg6NIwso_Jg/viewform). 
 
 5. All policies, and associated documentation, are retaiend for 6 years from the date of its creation or the date when it last was in effect, whichever is later
-    6. Version history of all Catalyze policies is done via Git
+    6. Version history of all Catalyze policies is done via Github.
     7. Backup storage of all policies is done with Box.
  
-8. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Catalyze management to assure all risks and potential gaps are mitigated and/or fully addressed.
+8. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Catalyze management to assure all risks and potential gaps are mitigated and/or fully addressed. The policy review form can be found [here](https://docs.google.com/a/catalyze.io/forms/d/1kuyIYA-Z-tmRdfMwrVMl59BujIy9y1dyjMSd8_Wy760/viewform).
 
 9. Catalyze utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Catalyze also tracks compliance with HIPAA and publishes results [here](https://catalyze.io/hipaa/).
 
