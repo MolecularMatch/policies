@@ -1,7 +1,7 @@
 <h1 id="introduction">Introduction</h1>
-Catalyze, Inc ("Catalyze") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. As providers of compliant, hosted infrastructure used by health technology vendors, developers, designers, agencies, custom development  shops, and enterprises, Catalyze strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by Catalyze to maintain compliance and assure the proper protections of infrastructure used to store, process, and trasmit ePHI for Catalyze Customers.
+Catalyze, Inc ("Catalyze") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. As providers of compliant, hosted infrastructure used by health technology vendors, developers, designers, agencies, custom development  shops, and enterprises, Catalyze strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by Catalyze to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for Catalyze Customers.
 
-Catalyze provides secure and compliant cloud-based software. This hosted software falls into two broad categoring: 1) **Platform as a Service (Paas)** and 2) **Platform Add-ons**. These Categories are cited throughout polices as Customers in each category inherit different policices, procedures, and obligations from Catalyze.
+Catalyze provides secure and compliant cloud-based software. This hosted software falls into two broad categories: 1) **Platform as a Service (Paas)** and 2) **Platform Add-ons**. These Categories are cited throughout polices as Customers in each category inherit different policies, procedures, and obligations from Catalyze.
 
 <h2 id="platform-as-a-service-(paas)">Platform as a Service (PaaS)</h2>
 PaaS Customers utilized hosted software and infrastructure from Catalyze to deploy, host, and scale custom developed applications and configured databases. These customers are deployed into compliant containers run on systems secured and managed by Catalyze. Catalyze does not have insight or access into application level data of PaaS Customers and, as such, does not have the ability to secure or manage risk associated with application level vulnerabilities and security weaknesses. Catalyze makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
@@ -13,7 +13,7 @@ Add-ons are API-driven services that are offered as part of the Catalyze Platfor
 
 In the future there may be 3rd party Add-on services available as part of the Catalyze Platform. These 3rd party, or Partner, Services will be fully reviewed by Catalyze to assure they do not have a negative impact on Catalyze's information security and compliance posture.
 
-<h2 id="compliace-inheritance">Compliace Inheritance</h2>
+<h2 id="compliace-inheritance">Compliance Inheritance</h2>
 Catalyze provides compliant hosted software infrastructure for its Customers. Catalyze has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules. Catalyze is currently undergoing a HITRUST audit to achieve HITRUST Certification.
 
 Catalyze signs business associate agreements (BAAs) with its Customers. These BAAs outline Catalyze obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Catalyze manages various aspects of compliance for Customers. The aspects of compliance that Catalyze manages for Customers are inherited by Customers, and Catalyze assumes the risk associated with those aspects of compliance. In doing so, Catalyze helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
@@ -26,14 +26,14 @@ Below are mappings of HIPAA Rules to Catalyze controls and a mapping of what Rul
 
 The physical infrastructure environment is hosted at [Rackspace](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf) and Amazon Web Services (AWS). The network components and supporting network infrastructure is contained within AWS and Rackspace infrastructure and managed by Rackspace and AWS. Catalyze does not have physical access into the network components. The Catalyze environment consists of Cisco firewalls, Apache web servers, Dropwizard Java application servers, Percona and Riak database servers, Logstash logging servers, Linux Ubuntu monitoring servers, Puppet access control server, OSSEC IDS services, Docker containers, Linux CentOS bastion host, and developer tools servers running on Linux Ubuntu.
 
-Within the Catalyze Platform, both on Rackspace and AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containes, databases, APIs, log servers, etc. Catalyze assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
+Within the Catalyze Platform, both on Rackspace and AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Catalyze assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
-In the case of PaaS Customers, it is the responsilibity of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or perview of Catalyze.
+In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or purview of Catalyze.
 
 There is data and network segmentation in place but differently implemented on Rackspace and AWS versions of the Catalyze Platform.
 
 * With Rackspace, hosted load balancers segment data and traffic while Cisco firewalls route traffic to private subnets for each PaaS Customer and for Platform Add-ons.
-* With AWS, hosted load balancers segment data across dedicated Virtual Privare Clouds for each PaaS Customer and for Platform Add-ons.
+* With AWS, hosted load balancers segment data across dedicated Virtual Private Clouds for each PaaS Customer and for Platform Add-ons.
 
 The result of segmentation strategies employed by Catalyze effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons. 
 
@@ -160,7 +160,7 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 4. All policies are made accessible to all Catalyze workforce members. The current master policies are published [here](https://catalyze.io/policy/).
 	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1KrVAq6O1s4VpD9zSPUFUrd2dkasbY_5wvg6NIwso_Jg/viewform). 
 
-5. All policies, and associated documentation, are retaiend for 6 years from the date of its creation or the date when it last was in effect, whichever is later
+5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
     6. Version history of all Catalyze policies is done via Github.
     7. Backup storage of all policies is done with Box.
  
@@ -191,7 +191,7 @@ This policy establishes the scope, objectives, and procedures of Catalyze's info
 2.  Risk analysis and risk management are recognized as important components of Catalyze’s corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
   1. Risk assessments are done throughout product life cycles: 
     2. Before the integration of new system technologies and before changes are made to Catalyze physical safeguards; and
-      * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers,  or new code developed for operations and managment of the Catalyze Platform.
+      * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers,  or new code developed for operations and management of the Catalyze Platform.
     3. While making changes to Catalyze physical equipment and facilities that introduce new, untested configurations.
   5. Catalyze performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
 
@@ -279,7 +279,7 @@ This policy establishes the scope, objectives, and procedures of Catalyze's info
     * The recommended feasible control(s) for each identified risk;
     * Required resources for implementation of selected controls;
     * Team member responsible for implementation of each control;
-    * Start date for implementationl
+    * Start date for implementation
     * Target date for completion of implementation;
     * Maintenance requirements.
   * The overall implementation plan provides a broad overview of the safeguard implementation, identifying important milestones and timeframes, resource requirements (staff and other individuals’ time, budget, etc.), interrelationships between projects, and any other relevant information.  Regular status reporting of the plan, along with key metrics and success indicators should be reported to Catalyze Senior Management.
@@ -305,7 +305,7 @@ Maintain documentation of all risk assessment, risk management, and risk mitigat
 
 <h1 id="roles-policy">Roles Policy</h1>
 
-Catalyze has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safegaurds towards compliance. The responsiblities associated with these roles are outlined below.
+Catalyze has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -324,7 +324,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 8. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
 9. Assists in the administration and oversight of business associate agreements.
 10. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
-11. Assist Secruity Officer as needed.
+11. Assist Security Officer as needed.
 
 The current Catalyze Privacy Officer is Travis Good ([travis@catalyze.io](mailto:travis@catalyze.io)).
 
@@ -360,7 +360,7 @@ The current Catalyze Privacy Officer is Travis Good ([travis@catalyze.io](mailto
   21. Supervisors are required to report a change in a users title, role, department, and/or location;
   22. Procedures to backup ePHI;
   23. Procedures to move and record movement of hardware and electronic media containing ePHI;
-  24. Procedures to dispose of discs, cds, hard drives, and other media containing ePHI;
+  24. Procedures to dispose of discs, CDs, hard drives, and other media containing ePHI;
   25. Procedures to re-use electronic media containing ePHI;
   26. SSH key and sensitive document encryption procedures.
 
@@ -376,7 +376,7 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 
 1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements.
 
-2. Helps to establishe and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
+2. Helps to established and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
 
 3. Updates policies and procedures as necessary and appropriate to maintain compliance and maintains changes made for six years from the date of creation or date it was last in effect, whichever is later.
 
@@ -443,7 +443,7 @@ All workforce members report non-compliance of Catalyze’s policies and procedu
 10. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation. 
 
 <h1 id="data-management-policy">Data Management Policy</h1>
-Catalyze has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjuction with Catalyze Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Catalyze Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Catalyze.
+Catalyze has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with Catalyze Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Catalyze Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Catalyze.
   
 Data backup is an important part of the day-to-day operations of Catalyze. To protect the confidentiality, integrity, and availability of ePHI, both for Catalyze and Catalyze Customers, completes backups are done daily to assure that data remains available when it needed and in case of disaster.
 
@@ -513,7 +513,7 @@ Access to Catalyze systems and application is limited for all users, including b
   * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
   * The request for access is retained for future reference.
   * All access to Catalyze systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commiserate with job functions. 
-  * Access to systems is controlled using centralized user management and authenticatio. All authentication requests are to utilize two factor authentication using mobile devices as the second factor.
+  * Access to systems is controlled using centralized user management and authentication. All authentication requests are to utilize two factor authentication using mobile devices as the second factor.
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
 
@@ -583,7 +583,7 @@ Catalyze does not use paper records for any sensitive information. Use of paper 
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
 <h2 id="paas-customer-access">PaaS Customer Access to Systems</h2>
-Catalzye grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
+Catalyze grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
 
 In the case of data migration, Catalyze does, on a case by case basis, support customers in importing data. In these cases Catalyze support SCP assuring all data is secured and encrypted in transit.
 
@@ -630,7 +630,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
   
 5. All connections to Catalyze are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis. 
 
-2.  Catalyze’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Custoners, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
+2.  Catalyze’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Customers, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
   3. User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
   4. Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
   5. System:  System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Catalyze utilizes file system monitoring from OSSEC to assure the integrity of file system data.
@@ -640,13 +640,13 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 
 4. Catalyze utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
 
-5. Catalyze uses Nagios to monitor systems in its evironment. 
+5. Catalyze uses Nagios to monitor systems in its environment. 
 
 4. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
 
 5. Catalyze uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
 
-4.  Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information.  The “events” may be applied to the entire Catalyze Plaform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
+4.  Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information.  The “events” may be applied to the entire Catalyze Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
 
 5. In addition to trigger events, Catalyze utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
 
@@ -668,7 +668,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
   * Testing shall be done on a routine basis, currently monthly.
 
 8. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all patches are applied within 90 days after testing.
-  * In the case of PaaS Customers, updates to Application and Database versions are the responsibilty of Customers, though Catalyze will, at it's own discretion, notify and recommend updates to customer systems.
+  * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Catalyze will, at it's own discretion, notify and recommend updates to customer systems.
 
   
 <h2 id="audit-requests">Audit Requests</h2>
@@ -771,9 +771,9 @@ Catalyze standardizes and automates configuration management through the use of 
 5. Clocks are synchronized across all systems using NTP.
 4. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
 5. All software and systems are tested using unit tests and end to end tests.
-6. All commited code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
+6. All committedcommitted code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
 6. Catalyze utilizes development and staging environments that mirror production to assure proper function.
-7. Catalyze also deploys envrironments locally using Vagrant to assure functionality before moving to staging or production.
+7. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 8. Catalyze schedules production deployments every four weeks.
 
 <h1 id="facility-access-policy">Facility Access Policy</h1>
@@ -809,7 +809,7 @@ Of note, Catalyze does not have ready access to ePHI, it provides cloud-based, c
 
 7. The organization securely disposes media with sensitive information.
 
-8. Physical access is restricted using smartlocks that track all access.
+8. Physical access is restricted using smart locks that track all access.
 
   * Restricted areas and facilities are locked and when unattended (where feasible).
   * Only authorized workforce members receive access to restricted areas (as determined by the Security Officer).
@@ -876,7 +876,7 @@ The Catalyze incident response process follows the process recommended by SANS, 
         17. The Containment, Eradication, and Recovery Phases are highly technical.  It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
         18. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
         19. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-  20. The Security Officer, Privacy Officer, or Catalyze representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affectted, notification is at the discretion of the Security and Privacy Officer.
+  20. The Security Officer, Privacy Officer, or Catalyze representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 
 
 **Containment Phase (Technical)**
@@ -957,7 +957,7 @@ Individuals needed and responsible to respond to a security incident make up a S
 * VP of Engineering
 
 <h1 id="breach-policy">Breach Policy</h1>
-To provide guidance for breach notification when impermissive or unauthorized access, acquisition, use and/or disclosure of the ePHI occurs. Breach notification will be carried out in compliance with the American Recovery and Reinvestment Act (ARRA)/Health Information Technology for Economic and Clinical Health Act (HITECH) as well as any other federal or state notification law. 
+To provide guidance for breach notification when impressive or unauthorized access, acquisition, use and/or disclosure of the ePHI occurs. Breach notification will be carried out in compliance with the American Recovery and Reinvestment Act (ARRA)/Health Information Technology for Economic and Clinical Health Act (HITECH) as well as any other federal or state notification law. 
 
 The Federal Trade Commission (FTC) has published breach notification rules for vendors of personal health records as required by ARRA/HITECH.  The FTC rule applies to entities not covered by HIPAA, primarily vendors of personal health records. The rule is effective September 24, 2009 with full compliance required by February 22, 2010. 
 
@@ -1003,7 +1003,7 @@ In the case of a breach, Catalyze shall notify all affected Customers. It is the
 
 7.  Methods of Notification:  Catalyze Customers will be notified via email and phone within the timeframe for reporting breaches, as outlined above.
 
-8.  Maintenance of Breach Information/Log:  As described above and in addition to the reports created for each incident, Catalyze shall maintain a process to record or log all breaches of unsecurede ePHI regardless of the number of records and Customers affected. The following information should be collected/logged for each breach (see sample Breach Notification Log):
+8.  Maintenance of Breach Information/Log:  As described above and in addition to the reports created for each incident, Catalyze shall maintain a process to record or log all breaches of unsecured ePHI regardless of the number of records and Customers affected. The following information should be collected/logged for each breach (see sample Breach Notification Log):
   * A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
   * A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
   * A description of the action taken with regard to notification of patients regarding the breach.
@@ -1013,7 +1013,7 @@ In the case of a breach, Catalyze shall notify all affected Customers. It is the
 
 11. Complaints: Catalyze must provide a process for individuals to make complaints concerning the organization’s patient privacy policies and procedures or its compliance with such policies and procedures.
 
-12. Sanctions:  The organization shall have in place and apply appropriate sanctions against members of its workforcem, Customers, and Partners who fail to comply with privacy policies and procedures.
+12. Sanctions:  The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
 
 13. Retaliation/Waiver:  Catalyze may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right.  The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
 
@@ -1146,7 +1146,7 @@ The primary objective of the technical test is to ensure the communication proce
 * Switch voice and data telecommunications to alternate processing site. 
 
 <h2 id="1.-notification-and-activation-phase">1. Notification and Activation Phase</h2>
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Catalyze. Based on the assessment of the Event, sometimes according to the Catalyze Incident Response Policy, the Contingecy Plan may be activated by either the CTO or VP of Engineering.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Catalyze. Based on the assessment of the Event, sometimes according to the Catalyze Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
 
 Contact information for key personnel is located in Appendix A. The notification sequence is listed below:
 
@@ -1260,9 +1260,9 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
 * Catalyze firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
-* All new firewall rules and confiuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
-* Catalyze utilizes redudant firewall on network perimeters.
-* Statis IP addresses are used for Catalyze servers.
+* All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
+* Catalyze utilizes redundant firewall on network perimeters.
+* Status IP addresses are used for Catalyze servers.
 
 <h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
 Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
@@ -1290,7 +1290,7 @@ Catalyze is proactive about information security and understands that vulnerabil
 * In the case of new vulnerabilities, the following steps are taken:
 	* All new vulnerabilities are verified manually to assure they are repeatable. Those not found to be repeatable are manually tested after the next vulnerability scan, regardless of if the specific vulnerability is discovered again.
 	* Vulnerabilities that are repeatable manually are documented and reviewed by the Security Officer, VP of Engineering, and Privacy Officer to see if they are part of the current risk assessment performed by Catalyze.
-		* Those thare are a part of the current risk assessment are checked for mitigations.
+		* Those that are a part of the current risk assessment are checked for mitigations.
 		* Those that are not part of the current risk assessment trigger a new risk assessment, and this process is outlined in detail in the Catalyze Risk Assessment Policy.
 
 * All vulnerability scanning reports are retained for 6 years by Catalyze.
@@ -1339,7 +1339,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 **Intrusion Detection and Vulnerability Scanning**
 
 * Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
-* Vulnerability scanning of Prooduction Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weeky. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
+* Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
 **Production System Security**
 
@@ -1351,14 +1351,14 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 * Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 * Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
-* All Production Data at rest is stored on encryopted volumes.
+* All Production Data at rest is stored on encrypted volumes.
 
 **Transmission Security**
 
 * All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
-* Encryption keys and machines that generate keys are protected from unathorized access.
+* Encryption keys and machines that generate keys are protected from unauthorized access.
 * Encryption keys are limited to use for one year and then must be regenerated.
-* In the case of Catalyze provided APIs, provide mechanisms to assure person sending or recieving data is authorized to send and save data.
+* In the case of Catalyze provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
 
 <h1 id="employees-policy">Employees Policy</h1>
@@ -1388,11 +1388,11 @@ Catalyze is committed to ensuring all workforce members actively address securit
 
 3. The Catalyze Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices and social media usage.
 
-4. Catalyze does not allow mobile devices to connec to any of its production networks. 
+4. Catalyze does not allow mobile devices to conned to any of its production networks. 
 
 4. All workforce members are educated about the approved set of tools to be installed on workstations.
 
-5. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonomously report security incidents, and the levels of compliance and obligations for Catalyze and its Customers and Partners.
+5. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Catalyze and its Customers and Partners.
 
 6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 
@@ -1434,7 +1434,7 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
 
 3. Access granted to external parties is limited to the minimum necessary and granted only for the duration required.
 
-4. A standard business assocaite agreement with Customers and Partners is defined and includes the required security controls in accordance with the organizations security policies. Additionally, responsibility is assigned in these agreements.
+4. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organizations security policies. Additionally, responsibility is assigned in these agreements.
 
 5. Catalyze has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement address liability, service definitions, security controls, and aspects of services management.
   * Catalyze utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
@@ -1453,9 +1453,9 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
 
 <h1 id="key-definitions">Key Definitions</h1>
 
-* *Application*: An application hosted by Catalyze, either maintained and created by Catalyze, or maintaiend and created by a Customer or Partner.
+* *Application*: An application hosted by Catalyze, either maintained and created by Catalyze, or maintained and created by a Customer or Partner.
 
-* *Application Level*: Controls and security associated with an Application. In the case of PaaS Customers, Catalzye does not have access to and cannot assure compliance with security standards and policies at the Application Level.
+* *Application Level*: Controls and security associated with an Application. In the case of PaaS Customers, Catalyze does not have access to and cannot assure compliance with security standards and policies at the Application Level.
 
 * *Audit*:  Internal process of reviewing information system access and activity (e.g., log-ins, file accesses, and security incidents).  An audit may be done as a periodic event, as a result of a patient complaint, or suspicion of employee wrongdoing.
 
@@ -1516,7 +1516,7 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
 
 * *Intrusion Detection System (IDS)*: A software tool use to automatically detect and notify in the event of possible unauthorized network and/or system access. 
 
-* *IDS Service*: An Intrusion Detection Service for providering IDS notification to customers in the case of suspicious activity. Offered with all Catalyze Add-ons and as an option for PaaS Customers.
+* *IDS Service*: An Intrusion Detection Service for providing IDS notification to customers in the case of suspicious activity. Offered with all Catalyze Add-ons and as an option for PaaS Customers.
 
 * *Law Enforcement Official*:  Any officer or employee of an agency or authority of the United States, a State, a territory, a political subdivision of a State or territory, or an Indian tribe, who is empowered by law to investigate or conduct an official inquiry into a potential violation of law; or prosecute or otherwise conduct a criminal, civil, or administrative proceeding arising from an alleged violation of law.
 
@@ -1601,7 +1601,7 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
 * *Unsecured Protected Health Information*:   Protected health information (PHI) that is not rendered unusable, unreadable, or indecipherable to unauthorized individuals through the use of technology or methodology specified by the Secretary in the guidance issued under section 13402(h)(2) of Pub. L.111-5 on the HHS website.
   1. Electronic PHI has been encrypted as specified in the HIPAA Security rule by the use of an algorithmic process to transform data into a form in which there is a low probability of assigning meaning without the use of a confidential process or key and such confidential process or key that might enable decryption has not been breached.  To avoid a breach of the confidential process or key, these decryption tools should be stored on a device or at a location separate from the data they are used to encrypt or decrypt.  The following encryption processes meet this standard.
     * Valid encryption processes for data at rest (i.e. data that resides in databases, file systems and other structured storage systems) are consistent with NIST Special Publication 800-111, Guide to Storage Encryption Technologies for End User Devices.
-    * Valid encryption processes for data in motion (i.e. data that is moving through a network, including wireless transmission) are those that comply, as appropriate, with NIST Special Publications 800-52, Guidelines for the Selection and Use of Transport Layer Security (TLS)  Implementations; 800-77, Guide to IPsec VPNs; or 800-113, Guide to SSL VPNs, and may include others which are Federal Information Processing Standards FIPS 140-2 validated.
+    * Valid encryption processes for data in motion (i.e. data that is moving through a network, including wireless transmission) are those that comply, as appropriate, with NIST Special Publications 800-52, Guidelines for the Selection and Use of Transport Layer Security (TLS)  Implementations; 800-77, Guide to IPSec VPNs; or 800-113, Guide to SSL VPNs, and may include others which are Federal Information Processing Standards FIPS 140-2 validated.
   2.  The media on which the PHI is stored or recorded has been destroyed in the following ways:
     *  Paper, film, or other hard copy media have been shredded or destroyed such that the PHI cannot be read or otherwise cannot be reconstructed.  Redaction is specifically excluded as a means of data destruction.
     *  Electronic media have been cleared, purged, or destroyed consistent with NIST  Special Publications 800-88, Guidelines for Media Sanitization, such that the PHI cannot be retrieved.
@@ -1685,7 +1685,7 @@ Health Information, located at 45 CFR Part 160 and Subparts A and C of Part 164.
 SIGNATURE  FOLLOWS
 
 <h1 id="hipaa-mappings-to-catalyze-controls">HIPAA Mappings to Catalyze Controls</h1>
-Below is a list of HIPAA Safegaurds and Requirements and the Catalyze controls in place to meet those.
+Below is a list of HIPAA Safeguards and Requirements and the Catalyze controls in place to meet those.
 
 | **Administrative Controls** HIPAA Rule | Catalyze Control
 --- | ---
