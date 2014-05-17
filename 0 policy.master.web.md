@@ -158,7 +158,7 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similarly to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
 
 4. All policies are made accessible to all Catalyze workforce members. The current master policies are published [here](https://catalyze.io/policy/).
-	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1KrVAq6O1s4VpD9zSPUFUrd2dkasbY_5wvg6NIwso_Jg/viewform). 
+	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform). 
 
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
     6. Version history of all Catalyze policies is done via Github.
@@ -510,10 +510,20 @@ Access to Catalyze systems and application is limited for all users, including b
 <h2 id="access-establishment-and-modification">Access Establishment and Modification</h2>
 
 * Requests for access to Catalyze Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
-  * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
-  * The request for access is retained for future reference.
-  * All access to Catalyze systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commiserate with job functions. 
-  * Access to systems is controlled using centralized user management and authentication. All authentication requests are to utilize two factor authentication using mobile devices as the second factor.
+* Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
+* The request for access is retained for future reference.
+* All access to Catalyze systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commiserate with job functions. The for used to conduct account review is [here](https://docs.google.com/a/catalyze.io/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).  
+* Any Catalyze workforce member can request change of access using this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
+* Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
+* Temporary accounts are not used unless absolutely necessary for business purposes.
+	* Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
+	* Accounts that are inactive for over 90 days are removed.
+* In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Catalyze Customers to define, and not Catalyze.
+* Privileged users must first access sytems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
+* All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
+* Generic accounts are not allowed on Catalyze systems.
+* Access is granted through encrypted, VPN tunnels.
+* In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
 
@@ -537,6 +547,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Passwords requirements mandate strong password controls (see below).
 * Passwords are not displayed at any time and are not transmitted or stored in plain text.
 * Default accounts on all production systems, including root, are disabled.
+* Shared accounts are not allowed within Catalyze systems or networks.
 
 
 <h2 id="automatic-logoff">Automatic Logoff</h2>
@@ -575,7 +586,7 @@ Catalyze does not use paper records for any sensitive information. Use of paper 
 
 * User IDs and passwords are used to control access to Catalyze systems and may not be disclosed to anyone for any reason.
 * Users may not allow anyone, for any reason, to have access to any information system using another user’s unique user ID and password.
-* On all production systems and application in the Catalyze environment, password configurations are set to require that passwords are a minimum of 7 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
+* On all production systems and application in the Catalyze environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
 * All system and application passwords are hashed by concatenating the user's password and a random 256-bit salt value, generated on a per-user basis, and then applying SHA-256 to the value to create a password hash. The password hash and the salt are then stored in the backend database and are used for password validation on future user authentication attempts.* Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 * Passwords are inactivated immediately upon an employee’s termination (refer to the termination procedures in this policy).
 * All default system, application, and Partner passwords are changed before deployment to production.
@@ -775,6 +786,7 @@ Catalyze standardizes and automates configuration management through the use of 
 6. Catalyze utilizes development and staging environments that mirror production to assure proper function.
 7. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 8. Catalyze schedules production deployments every four weeks.
+9. All formal change requests require unique ID and authentication.
 
 <h1 id="facility-access-policy">Facility Access Policy</h1>
 Catalyze works with Subcontractors to assure restriction of physical access to systems used as part of the Catalyze Platform. Catalyze and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Catalyze workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications.  Physical Access to all of Catalyze facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons.  All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Catalyze’s facility.
@@ -1265,7 +1277,8 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * Status IP addresses are used for Catalyze servers.
 
 <h1 id="vulnerability-policy">Vulnerability Scanning Policy</h1>
-Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
+Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems as well as OSSEC on all systems, including logs, for file integrity checking and intrusion detection.
+
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -1304,7 +1317,7 @@ Catalyze is proactive about information security and understands that vulnerabil
 * This vulnerability policy is reviewed on a quarterly basis by the Security Officer and Privacy Officer.
 
 <h1 id="integrity-policy">Data Integrity Policy</h1>
-Catalyze is proactive about information security and understands that vulnerabilities need to be monitored on an ongoing basis. Catalyze utilizes [Nessus Scanner](http://www.ossec.net/) from Tenable consistently scan, identify, and address vulnerabilities on our systems.
+Catalyze takes data integrity very seriously. As stewards and partners of Catalyze Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the Catalyze mission of data protection.
 
 <h2 id="applicable-standards-from-the-hitrust-common-security-framework">Applicable Standards from the HITRUST Common Security Framework</h2>
 
@@ -1344,6 +1357,8 @@ Production Systems that create, receive, store, or transmit customer data (herea
 **Production System Security**
 
 * System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
+* Up to date system lists and architecture diagrams are kept for all Production environments.
+* Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
 **Production Data Security**
 
@@ -1396,7 +1411,11 @@ Catalyze is committed to ensuring all workforce members actively address securit
 
 6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 
+7. All Catalyze-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Catalzye, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io*. 
+
 7. Access to internal Catalyze systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer. 
+
+8. Request for modifications of access for any Catalyze employee can be made using  this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 
 <h1 id="approved-tools-policy">Approved Tools Policy</h1>
 Catalyze utilizes a suite of approved software tools for internal use by workforce members. These software tools are either self hosted, with security managed by Catalyze, or they are hosted by a Subcontractor with appropriate business associate agreements in place to preserve data integrity. Use of other tools require approval from Catalyze leadership.
