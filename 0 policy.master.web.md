@@ -1376,6 +1376,22 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * In the case of Catalyze provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
 
+<h1 id="retention-policy">Data Retention Policy</h1>
+Despite not being a requirement within HIPAA, Catalyze understand and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Catalyze is not directly responsible for health and medical records retention as set forth by each state. Despite this, Catalyze has created and implemented the following policy to make it easier for Catalyze Customers to support data retention laws.
+
+<h2 id="applicable-state-retention-laws">State Medical Record Laws</h2>
+
+*  [Listing of state requirements for medical record retention](http://www.healthit.gov/sites/default/files/appa7-1.pdf)
+
+<h2 id="data-retention-policy">Data Retention Policy</h2>
+
+* Current Catalyze Customers have data stored by Catalyze as a part of the Catalyze Service.
+
+* Once a Customer ceases to be a Customer, as defined below, the following steps are taken:
+	1. Customer is sent a notice of change of standing, and given the option to reinstate account as Customer.
+	2. If no response to notice in #1 above within 7 days, or if Customer responds they do not want to reinstate account, Customer is sent directions for how to download their data from Catalyze and/or to have Catalyze continue to store the data at a rate of $25/month for up to 100GB. If there is more than 100GB of data, Catalyze will work with Customer to determine storage costs.
+	3. If Customer downloads data or does not respond to notices from Catalyze within 30 days, Catalyze removed data from Catalyze systems and Customer is sent notice of removal of data.
+
 <h1 id="employees-policy">Employees Policy</h1>
 Catalyze is committed to ensuring all workforce members actively address security and compliance in their roles at Catalyze. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
