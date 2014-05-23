@@ -1,32 +1,70 @@
-This Catalyze Employee Handbook (this “Handbook”) is current as of January 10th, 2014. All employees will be informed of updates to this Handbook going forward. Access to this Handbook is provided to all employees at all times. If there are any questions or concerns about this Handbook, or any reports of violations, employees should contact [hr@catalyze.io](hr@catalyze.io)
+This Catalyze Employee Handbook (this “Handbook”) is current as of May 20th, 2014. All employees will be informed of updates to this Handbook going forward. Access to this Handbook is provided to all employees at all times. If there are any questions or concerns about this Handbook, or any reports of violations, employees should contact [hr@catalyze.io](hr@catalyze.io)
 
 ##Introduction
-Welcome to Catalyze! We’re excited to have you on our team. We’re a pretty new company but we’re funded and growing very fast. We’re on a mission to solve the compliance challenges facing healthcare technology vendors. We are governed by a Board of Directors, with Mohan and Travis sitting on the Board.
+Welcome to Catalyze! We’re excited to have you on our team. We’re on a mission to solve the compliance challenges facing healthcare technology vendors every day. Ask any health tech vendor or developer and they'll tell you the problems we are solving are very real, very tangible, and very immediately in need of better solutions. We don't build apps, except from time to time to test or dogfood our own stuff.
+
+We're focused on infrastructure, specifically cloud-based software infrastructure, that makes it simpler for developers, vendors, and enterprises to build the tools necessary to fix healthcare. Healthcare is in need of a renaisance, and we want to help innovators bring about that paradigm shift. We're catalyzing (yes, the name was intentional) the disruption of healthcare with innovative technology and tech-enabled services built using Catalyze products. Our vision is to be *the* backbone, or plumbing, for healthcare technology, assuring the availability, privacy, security, and integrity of data.
+
+As a company:
+
+* we like to have fun;
+* we work very hard;
+* we learn constantly;
+* we ask questions;
+* we get better every day;
+* we fight to win;
+* we help each other;
+* we love our customers;
+* we are accountable;
+* we accept failure but don't like it.
+
+##Organization
+We're governed by a Board of Directors, with Mohan and Travis sitting on the Board from the company leadership. We raised a Series A funding round in November 2013. Our major funders are Arthur Ventures, Chicago Ventures, and Baird Ventures. Travis is CEO and Chief Privacy Officer. Mohan is President and Chief Product Officer. Ben is CTO and Chief Security Officer.
   
-We’re a distributed team with a primary office in Madison, WI. We also have a small office in San Antonio, TX, and shared space in Washington, DC. Being distributed means we strive to assure all communication is equally accessible, whether communicating with the person sitting next to you or a person across the country. Below is our current organizational chart, showing where everybody sits and how we all work together. We’re very flat, so all people on the org are always accessible via email or, preferably, chat.
+We’re a distributed team with a primary office in Madison, WI. We also have a small office in San Antonio, TX, and shared space in Portalnd, OR. Being distributed means we work hard to assure all communication is equally accessible, whether communicating with the person sitting next to you or a person across the country. Below is our current organizational chart, showing where everybody sits and how we all work together. We’re very flat, so all people on the org are always accessible via email or, preferably, chat. Our chat client, Slack, is a great place to find a listing of all people at Catalyze with contact info for each.
 
 ##Onboarding
-As part of the onboarding process, you should have received and co-signed an offer letter and an at-will employment agreement. The at-will employment address areas related to intellectual property (IP), while the offer letter really just lays out the high level terms of employment.
+As part of the onboarding process, you should have received and co-signed an offer letter and an at-will employment agreement. The at-will employment address areas related to intellectual property (IP), while the offer letter really just lays out the high level terms of employment. If you have not recieved these, please email [hr@catalyze.io](hr@catalyze.io)
 
 One specific area to highlight and explain is option grants. Options give you the right, or option, to buy shares of Catalyze at a certain price. The terms for all option grants, other than the price of the options, are standardized for all employees at Catalyze; these terms mirror the terms of founders grants. Specifically, options are vested over 4 years with a 1 year cliff. What this means is that your options, if you choose to use them and buy shares, are not owned by you until they are vested. You would vest ¼ of your total shares after 12 months, and then 1/36 of the remaining shares on each month for the next 3 years. If you leave Catalyze before 12 months, you do not vest, or own any shares. If you leave between 12 months and 4 years, you would own or have vested a percentage of your shares. If you have any questions about options or terms, please email [hr@catalyze.io](hr@catalyze.io).
 
-You should have received onboarding information from our HR and benefits companies. Currently we’re using Maxwell Health for insurance and we’re using inDinero for HR/Payroll.  We currently direct deposit salary two times per month. We also offer full medical coverage through Group Health Cooperative and Catalyze covers 100% of the cost. If you have not received information from Maxwell and inDinero, and completed the paperwork for each, please email hr@catalyze.io.
+You should have received onboarding information from our HR and benefits companies. Currently we’re using Maxwell Health for insurance and we’re using inDinero for HR/Payroll.  We  direct deposit salary two times per month. We also offer full medical coverage through Group Health Cooperative and Catalyze covers 100% of the cost. If you have not received information from Maxwell and inDinero, and completed the paperwork for each, please email hr@catalyze.io. If you have questions about payroll or direct deposit, please email [inDinero](catalyze@indinero.com).
 
 You should be setup with accounts for the services we use. Those services include:
 
-* Google apps - calendar, email, Google + (for hangouts)
+* Google apps - calendar, email, Google + (for Hangouts)
 * Slack - daily group and 1:1 chat
 * Github - code and policy version control and code repositories
-* Box - secure file storage and sharing
+* Gitlab - wikis and more sensitve data
+* Siteleaf - content management system for our website
+* Box - core secure file storage and sharing
+* Dropbox - marketing and sales collateral
 * Trello - less frequent use, more high level planning
 * Github Issues - sprint and task tracking
 * iDoneThis - daily status updates
 
-If you do not have credentials for or you have questions about any of the services listed above please reach out to travis@catalyze.io, brian@catalyze.io, or ben@catalyze.io.
+If you do not have credentials for or you have questions about any of the services listed above please complete this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). If you want to change credentials, use this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 
-You each should have been issued a Mac Book Pro for use at Catalyze. This is for work use and, because of the nature of compliance, it is imperative that our workstation policies (firewall, encryption, passwords) are enforced. Please email if you have questions about any of these. The machine belongs to Catalyze Inc. and must be returned before you leave the company.
+You each should have been issued a Mac Book Pro for use at Catalyze. This is for work use and, because of the nature of compliance, it is imperative that our workstation policies (firewall, encryption, passwords) are enforced. Specific policies for workstation uses can be found [here](https://catalyze.io/policy/#workstation-use). Please email if you have questions about any of these. The machine belongs to Catalyze Inc. and must be returned if you leave the company.
+
+##HIPAA
+ 
+###Compliance Policies
+
+As an organization, compliance and security are at the core of what we do and how we operate. We publically post our policies and procedures, and can be referenced whenever you have a question related to our policies. You can browse our policies [here](https://catalyze.io/policy/). If you have questions about policies or requests for corrections to policies, please submit this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform).
+
+We are audited on an annual basis, and sometimes more frequently. In the case of an audit, we will inform all members of the company.
+
+###Training
+
+All employees are required to complete HIPAA training upon joining Catalyze. Introductory training is located [here](https://training.catalyze.io/). Once training has been completed, you must complete this [form](https://docs.google.com/a/catalyze.io/forms/d/1bmEK3TidACj6ForBqGMaINPjIckv9ht28rtkGEQsBGs/viewform?usp=send_form). If you ever have questions about HIPAA, please email [hipaa@cataluze.io](hipaa@catalyze.io).
+
+###Physical Security of Computer and Phones
+ 
+You are asked to take reasonable steps to ensure the protection of your computer and phone including damage from improper use, food and drink spillage, and good housekeeping procedures.
 
 ##Policies
+
 ###Professionalism
 At all times, and in all circumstances where employee is acting on behalf of Catalyze or is seen to be associated with Catalyze, the employee is to act in a professional manner. This includes statements about, pertaining to, or somehow relating to Catalyze, its employees, its partners, its customers, or its competitors.
 
@@ -38,14 +76,14 @@ We expect all employees at Catalyze to be available during business hours unless
 Internet Use. We expect Internet use while on the company network, or anytime with the company’s computer, to be professional in nature. Do not frequent sites with questionable content at any time. If you need additional clarification on this, please email hr@catalzye.io.
 
 ###Communication
-* *Task Management Software and HipChat*. The objective of internal communication is to make all, or as much as possible, contextual, fast, and easy to manage. As such, the majority of communication should take place via HipChat, iDoneThis, and Jira/Confluence. For any of these, if you want a response from a specific person or a group of people, be sure that you @mention them. Regarding HipChat, if you want to share a link or something else of interest with the whole company, please post that to the catalyze.io main room. If you want to create a HipChat room, please do so but make sure you post an announcement of the room to the entire group with @all.
-Email. Email is rarely the best choice, but is still the preferred method of communication when a formal response is required within 24 hours. In this case, it is expected that a response will be given within 24 hours, even if that response is only to state that a full response should be expected in a certain amount of time. This policy applies to both internal and external email.
+* *Task Management Software and Slack*. The objective of internal communication is to make all, or as much as possible, contextual, fast, and easy to manage. As such, the majority of communication should take place via HipChat, iDoneThis, and Jira/Confluence. For any of these, if you want a response from a specific person or a group of people, be sure that you @mention them. Regarding HipChat, if you want to share a link or something else of interest with the whole company, please post that to the catalyze.io main room. If you want to create a HipChat room, please do so but make sure you post an announcement of the room to the entire group with @all.
+* *Email*. Email is rarely the best choice, but is still the preferred method of communication when a formal response is required within 24 hours. In this case, it is expected that a response will be given within 24 hours, even if that response is only to state that a full response should be expected in a certain amount of time. This policy applies to both internal and external email.
 * *Google Hangouts*. It is expected that when you are working you will be available for Hangouts on demand. Being a geographically dispersed teams requires that we stay available, and that sometimes requires more than HipChat/IM.
 * *Phone*. Phone, meaning voice or text (SMS/iMessage) is not the preferred method for internal communication. It should be used sparingly as it is a distraction and a drain on productivity.
 
 ###Meetings
 
-* *Daily Meetings*. Company-wide daily meetings are held every morning from 10:00-10:15 AM CST. All employees are required to attend. If an employee cannot make the meeting because of known circumstances, the founders of Catalyze are to be informed the day before or the morning of by email (founders@catalyze.io). Local, WI-based employees are required to attend in person while remote employees are required to use the communication medium of choice, currently Google Hangouts with phone for backup(888-245-6744). At such meetings, each employee should be prepared to talk about what they plan to accomplish that day and any help they might need in accomplishing it. The goal is to make it very actionable items that can realistically be completed that day. That may mean portions of a larger task. Ben will run these meetings.
+* *Daily Meetings*. Company-wide daily meetings are held M-F morning from 10:00-10:30 AM CST. All employees are required to attend their daily catchup. If an employee cannot make the meeting because of known circumstances, the founders of Catalyze are to be informed the day before or the morning of by email (founders@catalyze.io). Local, WI-based employees are required to attend in person while remote employees are required to use the communication medium of choice, currently Google Hangouts with phone for backup (888-245-6744). At such meetings, each employee should be prepared to talk about what they plan to accomplish that day and any help they might need in accomplishing it. The goal is to make it very actionable items that can realistically be completed that day. That may mean portions of a larger task. Ben will run these meetings.
 * *Retrospectives*. At the conclusion of each sprint we hold retrospectives, which run for about an hour. During this time we celebrate our success over the sprint, and try to learn and improve by recognizing and acknowledging mistakes and areas of improvement.
 * *1 on 1 Meetings*. At least every 2 weeks you should sit down, or the very least have a call, with either Ben, Mohan, Nick or Travis to discuss how things are going - what is working, what is not working, what can we do to make things better.
 
@@ -199,12 +237,6 @@ Employees under the influence of drugs and alcohol can cause injury to themselve
 There is a range of medication which can affect performance, including pain relievers, sleeping pills, tranquilizers etc. An employee who is using legally prescribed medication that may impair performance is required to advise hr@catalyze.io of this.
  
 It is every employee’s responsibility to take reasonable care of the health and safety of others in the workplace and ensure that their performance and actions are not impeded by the use of drugs (either legal or illegal) or alcohol. If you suspect that any employee is under the influence of drugs or alcohol, it is your responsibility to communicate this to hr@catalyze.io.
- 
-###HIPAA
- 
-####Physical Security of Computer and Phones
- 
-You are asked to take reasonable steps to ensure the protection of your computer and phone including damage from improper use, food and drink spillage, and good housekeeping procedures.
  
 ###Leaving Procedures
  

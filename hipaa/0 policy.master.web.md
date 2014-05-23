@@ -512,7 +512,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Requests for access to Catalyze Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
 * The request for access is retained for future reference.
-* All access to Catalyze systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commiserate with job functions. The for used to conduct account review is [here](https://docs.google.com/a/catalyze.io/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).  
+* All access to Catalyze systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commiserate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/catalyze.io/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).  
 * Any Catalyze workforce member can request change of access using this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
@@ -560,13 +560,14 @@ Access to Catalyze systems and application is limited for all users, including b
 All workstations at Catalyze are company owned, and all are laptop Apple products running Mac operating system.
 
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
-  * Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”.  Harassment of any kind is prohibited.  No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained.  No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.  
-  * Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests.  Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
-  * Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
-  * Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
-  * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
-  * Workstation hard drives will be encrypted using FileVault 2.0.
-  * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
+* Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”.  Harassment of any kind is prohibited.  No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained.  No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.  
+* Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests.  Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
+* Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
+* Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
+* Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
+* Workstation hard drives will be encrypted using FileVault 2.0.
+* All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
+* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Catalzye, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
 
 
 <h2 id="termination-procedures">Employee Termination Procedures</h2>
@@ -1427,7 +1428,7 @@ Catalyze is committed to ensuring all workforce members actively address securit
 
 6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 
-7. All Catalyze-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Catalzye, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io*. 
+7. All Catalyze-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Catalyze, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io*. 
 
 7. Access to internal Catalyze systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer. 
 
