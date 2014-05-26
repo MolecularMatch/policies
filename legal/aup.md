@@ -1,10 +1,10 @@
-#Catalyze Acceptable Use Policy
+<h1 id="sup"> Catalyze Acceptable Use Policy </h1>
 
 This Acceptable Use Policy describes actions that Catalyze prohibits when any person uses the Catalyze Services ("Services"), including parties (“Customer”) to a separate agreement with Catalyze who use the Catalyze Services.   In the event of a conflict between this Acceptable Use Policy and an underlying Agreement with a Customer, the underlying Agreement shall govern. 
 
 The Catalyze Services may not be used in any illegal, abusive or other manner that interferes with the business or activities of any other party, including being used in violation of HIPAA. The following list gives examples of prohibited actions, including types of email and content. This list is provided by way of example and should not be considered exhaustive.
 
-##Prohibited Actions
+<h2 id="prohibited-actions">Prohibited Actions</h2>
 
 - Attempting to bypass or break any security mechanism on any of the Catalyze Services or using the Catalyze Services in any other manner that poses a security or service risk to Catalyze or any of its users or customers.
 
@@ -22,7 +22,7 @@ The Catalyze Services may not be used in any illegal, abusive or other manner th
 
 - Utilizing Catalyze Services in a way that knowingly violates HIPAA rules.
 
-##Prohibited Content
+<h2 id="prohibited-content">Prohibited Content</h2>
  
  - Content that infringes a third party's rights (e.g., copyright) according to applicable law;
  
@@ -46,7 +46,7 @@ The Catalyze Services may not be used in any illegal, abusive or other manner th
  
  - Other material, products or services that violate or encourage conduct that would violate any criminal laws, any other applicable laws, or any third-party rights.
 
-##Prohibited Email
+<h2 id="prohibited-email">Prohibited Email</h2>
 
  - Transmitting any material that contains viruses, trojan horses, worms or any other malicious, harmful, or deleterious programs.
 
@@ -78,7 +78,7 @@ The Catalyze Services may not be used in any illegal, abusive or other manner th
 
  - Sending unsolicited emails to significant numbers of email addresses belonging to individuals and/or entities with whom Customer or its Authorized Users have no preexisting relationship in violation of applicable law.
 
-##Customer Content on the Services and Take Down Obligations  
+<h2 id="customer-content">Customer Content on the Services and Take Down Obligations  </h2>
  
  - Customer agrees to promptly take down any content that violates this Acceptable Use Policy, including pursuant to a take-down request from Catalyze. In the event that Customer elects not to comply with a request from Catalyze to take down certain Content, Catalyze reserves the right to directly take down such Customer Content or to disable Applications upon reasonable prior written notice.
  
@@ -90,4 +90,3 @@ The Catalyze Services may not be used in any illegal, abusive or other manner th
 
 ---
 *Last Updated: May 15, 2014*
-
