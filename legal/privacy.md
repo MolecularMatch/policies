@@ -1,6 +1,5 @@
 <h1 id="privacy-id"> Privacy Policy </h1>
 
-This Privacy Policy is effective May 29th, 2014.
 
 Catalyze, Inc. (“Catalyze” or the “Company”) is committed to protecting the privacy of your information. This Privacy Statement describes Catalyze's Web site privacy practices.
 
@@ -87,5 +86,7 @@ Catalyze reserves the right to change this Privacy Statement. Catalyze will prov
 <h2 id="contact-us">11. Contacting Us </h2>
 Questions regarding this Privacy Statement or the information practices of the Company’s Web site should be directed to support@catalyze.com or by mailing Catalyze Privacy, 111 South Hamilton Street #30, Madison, WI 53703.
 
+----
+Last updated May 29th, 2014.
 
 *These policies are inspired by the policies of [Google App Engine](http://developers.google.com/appengine/terms) and [Heroku](http://policy.heroku.com/). The original works have been modified. Catalyze is not affiliated with or sponsored by Google or Heroku.*
