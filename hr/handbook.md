@@ -63,6 +63,17 @@ All employees are required to complete HIPAA training upon joining Catalyze. Int
  
 You are asked to take reasonable steps to ensure the protection of your computer and phone including damage from improper use, food and drink spillage, and good housekeeping procedures.
 
+###Logical Security of Workstations
+ 
+All employees are to follow the workstation security policies outlinere [here](https://catalyze.io/policy/#workstation-use). Specifically, all systems are required to have the following setings:
+
+* Filevault encryption turned on;
+* Firewall turned on;
+* Password required after lock screen;
+* The following message should be added to the lock screen: *This computer is owned by Catalzye, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
+
+Additionally, only approved softwaere required for business is allowed on workstations. Logs should be reviewed on a monthly basis for suspicious activity. For questions on log review, please contact [Ben](mailto:ben@catalyze.io).
+
 ##Policies
 
 ###Professionalism
@@ -70,6 +81,8 @@ At all times, and in all circumstances where employee is acting on behalf of Cat
 
 ###Accountability
 Every Catalyze employee, from founder to janitor, is accountable for their work. We will recognize and celebrate your successes, and we will will also explore when mistakes are made, or things do not go as planned. Our objective as a company is to constantly learn and improve, and we want each and every one of us to constantly learn and improve because, well, we are the company. We will give you enough rope to hang yourself, or to lasso the biggest bull you can find. The choice is yours. In a sense our ideal team is made up of startups of one - each of you own your work and take initiative to succeed. You also explore and test constantly, documenting what you learned in some way that we all benefit.
+
+Additionally, system access and usage are monitored and logged. This ties partially to the nature of our business being compliance as well as having a strong information security program in place.
 
 ###Working
 We expect all employees at Catalyze to be available during business hours unless other arrangements have been made. There is flexibility in hours, and work location, but you should generally be available via chat every day. We don’t count hours but plan for all work to be completed as if you are working full time. Full time doesn’t mean 40 hours, but it means getting your work done and delivered by deadlines, or letting us know why certain deadlines are not realistic. If you are a remote worker, this does place an additional burden on you to provide transparency and visibility into your work and availability.

@@ -524,6 +524,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Generic accounts are not allowed on Catalyze systems.
 * Access is granted through encrypted, VPN tunnels.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
+* Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
 <h2 id="workforce-clearance-procedures">Workforce Clearance Procedures</h2>
 
@@ -662,6 +663,8 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 
 5. In addition to trigger events, Catalyze utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
 
+6. Logs are reviewed weekly by Security Officer. 
+
 5.  Catalyze’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
   * Scanning tools and devices;
   * Password cracking utilities;
@@ -780,7 +783,7 @@ Catalyze standardizes and automates configuration management through the use of 
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
 3. No systems are deployed into Catalyze environments without approval of the Catalyze VP of Engineering.
 4. An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Box. All systems are categorized as production and utility to differentiate based on criticality.
-5. Clocks are synchronized across all systems using NTP.
+5. Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.
 4. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
 5. All software and systems are tested using unit tests and end to end tests.
 6. All committedcommitted code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
@@ -1486,6 +1489,8 @@ Catalyze makes every effort to assure all 3rd party organizations are compliant 
 11. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
 
 13. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
+
+14. For all partners, Catalyze reviews activity annually to assure partners are in line with SLAs in contracts with Catalyze. 
 
 <h1 id="key-definitions">Key Definitions</h1>
 
