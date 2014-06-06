@@ -9,7 +9,7 @@ PaaS Customers utilized hosted software and infrastructure from Catalyze to depl
 PaaS Customers can opt for a list of Services from Catalyze, which include Backup Service, Logging Service, IDS Service, and Disaster Recovery Service. These services are not standard and PaaS Customers must sign up for them in order for Catalyze to manage these areas of security and compliance.
 
 <h2 id="platform-add-ons-(or-&quot;add-ons&quot;)">Platform Add-ons (or &ldquo;Add-ons&rdquo;)</h2>
-Add-ons are API-driven services that are offered as part of the Catalyze Platform. These services currently include our Backend as a Service and secure Messaging Service. With Add-ons, Catalyze has access to data models and manages all application level configurations and security.
+Add-ons are compliant API-driven services that are offered as part of the Catalyze Platform. These services currently include our Backend as a Service and secure Messaging Service. With Add-ons, Catalyze has access to data models and manages all application level configurations and security.
 
 In the future there may be 3rd party Add-on services available as part of the Catalyze Platform. These 3rd party, or Partner, Services will be fully reviewed by Catalyze to assure they do not have a negative impact on Catalyze's information security and compliance posture.
 

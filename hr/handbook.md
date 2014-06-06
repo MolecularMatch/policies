@@ -69,7 +69,11 @@ All employees are to follow the workstation security policies outlinere [here](h
 
 * Filevault encryption turned on;
 * Firewall turned on;
-* Password required after lock screen;
+* Password rules for workstations:
+     * At least 8 characters long;
+     * Must contain at least one letter, one number, and one special character;
+     * Must be changed every 90 days;
+     * Passwords can't be reused for 1 year; 
 * The following message should be added to the lock screen: *This computer is owned by Catalzye, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
 
 Additionally, only approved softwaere required for business is allowed on workstations. Logs should be reviewed on a monthly basis for suspicious activity. For questions on log review, please contact [Ben](mailto:ben@catalyze.io).
