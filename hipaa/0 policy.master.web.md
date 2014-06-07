@@ -523,6 +523,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 * Generic accounts are not allowed on Catalyze systems.
 * Access is granted through encrypted, VPN tunnels.
+     * VPN utilizes AES 256 bit encryption.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 * Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
@@ -893,6 +894,7 @@ The Catalyze incident response process follows the process recommended by SANS, 
         18. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
         19. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
   20. The Security Officer, Privacy Officer, or Catalyze representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+  21. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Catalyze and potentially external.
 
 
 **Containment Phase (Technical)**
