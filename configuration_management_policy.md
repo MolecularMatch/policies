@@ -25,3 +25,5 @@ Catalyze standardizes and automates configuration management through the use of 
 11. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 12. Catalyze schedules production deployments every four weeks.
 13. All formal change requests require unique ID and authentication.
+14. Changes to Salt and configuration management tools are documented and approved using this [form](https://docs.google.com/a/catalyze.io/forms/d/1wuzKcSsYpyh5Xm4bwkLN5IJEDhzmPl3Cs4xg7Jz2tUc/viewform?usp=send_form)
+15. Changes to production inventory is documented and approved using this [form](https://docs.google.com/a/catalyze.io/forms/d/1jpg57tDyRqwNsgyoUDSOI5KKY9AP6jwBJXpFC67p0Is/viewform?usp=send_form).

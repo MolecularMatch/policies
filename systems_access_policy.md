@@ -92,6 +92,7 @@ All workstations at Catalyze are company owned, and all are laptop Apple product
 * Workstation hard drives will be encrypted using FileVault 2.0.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 * All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Catalyze, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
+* At onboarding and offboarding, employees workstation is to be configured using this [form](https://docs.google.com/a/catalyze.io/forms/d/12Xps9wLhmZ2R8IuNRqyNLwFggzZLOY4URtSso2tOoas/viewform?usp=send_form).
 
 
 ## Employee Termination Procedures
@@ -103,6 +104,7 @@ All workstations at Catalyze are company owned, and all are laptop Apple product
 	* An unauthorized individual is utilizing a user’s User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 * The Security Officer will terminate users’ access rights immediately upon notification.
 * The Security Officer audits and may terminate access of users that have not logged into organization’s information systems/applications for an extended period of time.
+* Workstation will be cleaned and documented using this [form](https://docs.google.com/a/catalyze.io/forms/d/12Xps9wLhmZ2R8IuNRqyNLwFggzZLOY4URtSso2tOoas/viewform?usp=send_form).
 
 ## Paper Records
 
