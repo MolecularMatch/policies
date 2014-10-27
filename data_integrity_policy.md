@@ -1,6 +1,6 @@
 # Data Integrity Policy
 
-Catalyze takes data integrity very seriously. As stewards and partners of Catalyze Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the Catalyze mission of data protection.
+MolecularMatch takes data integrity very seriously. As stewards of our Customers data, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of this aim.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -16,45 +16,86 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ### Disabling non-essential services
 
-* All Production Systems must disable services that are not required to achieve the business purpose or function of the system. 
+**PaaS Subcontractor is responsible for:**
+
+* Disable all non-essential and unrequired softward and services that are not vital to the business purpose or function of Production Systems. 
 
 ### Monitoring Log-in Attempts
 
-* All access to Production Systems must be logged. This is done following the Catalyze Auditing Policy.
+*See Auditing Policy*
 
 ### Prevention of malware on Production Systems
+**We are responsible for:**
 
-* All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
-* All Production Systems are to only be used for Catalyze business needs.
+* Using  Production Systems only for business needs.
+
+**PaaS Subcontractor is responsible for:**
+
+* Scanning all Production Systems with OSSEC every 2 hours and at reboot to ensure no malware is present. 
+* Evaluating and removing all detected malware.
+* Using Production Systems only for business needs.
 
 ### Patch Management
 
-* Patches, application, and system OS versions are kept up to date at all times. New versions are tested.
-* Administrators subscribe to mailing lists to assure up to date on current version of all Catalyze managed software on Production Systems.
+**We are responsible for:**
+
+* Making sure application code and associated systems are kept up to date at all times. 
+* Testing all new versions to ensure they do not violate any policy including this one.
+* Subscribing to appropriate resources to ensure responsible workforce members (administractors and development operations) remain up-to-date on all responsible software on Production Systems.
+
+**PaaS Subcontractor is responsible for:**
+
+* Making sure atches, application, and system OS versions are kept up to date at all times. 
+* Testing all new versions to ensure they do not violate any policy including this one.
+* Subscribing to appropriate resources to ensure responsible workforce members (administractors and development operations) remain up-to-date on all responsible software on Production Systems.
 
 ### Intrusion Detection and Vulnerability Scanning
 
-* Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
-* Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
+* *See the Intrusion Detection Policy.*  
+* *See the Vulnerability Scanning Policy.* 
 
 ### Production System Security
 
-* System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
-* Up to date system lists and architecture diagrams are kept for all Production environments.
-* Access to Production Systems is controlled using centralized tools and two-factor authentication.
+**We are responsible for:**
+
+* Managing and maintaing the application and associated products, including related security.
+* Keeping the software and related systems up to date, including production system architecture diagrams.
+* Controlling access to appropriate indviduals and role-based access to the system.  Administractive access to the system must be controlled using two-factor authentication.
+
+
+**PaaS Subcontractor is responsible for:**
+
+* Managing and maintaing the servers environments, network, and related security.
+* Keeping up to date system lists and architecture diagrams for all Production environments.
+* Controlling access to Production Systems using centralized tools and two-factor authentication.
 
 ### Production Data Security
+Both parties must work to reduce the risk of compromise of Production Data.
 
-* Reduce the risk of compromise of Production Data.
-* Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
-* Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
-* Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
-* All Production Data at rest is stored on encrypted volumes.
+**We are responsible for:**
+
+* Reviewing controls designed to protect Production Data from improper alteration or destruction.
+
+**PaaS Subcontractor is responsible for:**
+
+* Implementing and reviewing controls designed to protect Production Data from improper alteration or destruction.
+* Ensuring that Production Data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
+* Ensure Production Data is segmented and only accessible to the appropriate authorized customer.
+* Encrypting all Production Data at rest by using encrypted volumes.
 
 ### Transmission Security
 
-* All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
-* Encryption keys and machines that generate keys are protected from unauthorized access.
-* Encryption keys are limited to use for one year and then must be regenerated.
-* In the case of Catalyze provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
-* System logs of all transmissions of Production Data access. These logs must be available for audit.
+**We are responsible for:**
+
+* Encrypting all data in transmission from end-to-end.  
+* Protecting encryption keys and machines that generate keys from unauthorized access.
+* Providing a mechanism to assure person or system sending or receiving data is authorized to send and save data.
+
+
+**PaaS Subcontractor is responsible for:**
+
+* Encrypting all data in transmission from end-to-end.  Encryption is not terminated at the network end point but is carried through to the application.
+* Protecting encryption keys and machines that generate keys from unauthorized access.
+* Limiting duraction of use of encryption keys to one year before they must be regenerated.
+* Providing a mechanism to assure person or system sending or receiving data is authorized to send and save data.
+* Logging all transmissions of Production Data access. These logs must be available for audit.

@@ -172,7 +172,7 @@ Additional documentation related to maintenance of policies is outlined in the S
 #Risk Management Policy
 This policy establishes the scope, objectives, and procedures of Catalyze's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission. 
 
-##Applicable Standards from the HITRUST Common Security Framework
+##Applicable Standards from the HITRUST Common Security Frameework
 
 * 03.a - Risk Management Program Development
 * 03.b - Performing Risk Assessments

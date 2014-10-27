@@ -1,4 +1,4 @@
-Catalyze Policies
+Molecular Match Policies
 ========
 
-This repo houses Catalyze organizational policies. Similarly to source code version control, we're doing the same thing with policies. These are all writted in markdown, and the master policy and a mashup of all the policies.
+This repo houses Molecular Match's organizational policies. Similar to source code version control, we are using our private GitHub repository to version and control modifications to these policies.  The policies are all written in markdown.  There will also be a mastery policy, which will be a mashup of all the polciies in one centralized place to be put on the companies intranet or other internal location as and where appropriate.

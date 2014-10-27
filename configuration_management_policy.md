@@ -1,6 +1,6 @@
 # Configuration Management Policy
 
-Catalyze standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all Catalyze systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
+This policy, and associated procedures for configuration management, has been sub-contracted in part to a third-party, HIPAA compliant, Platform as a Service Vendor (PaaS Subcontractor).  We have verified that their policies and procedures meet or exceed our standards and those of HIPAA and the HITRUST Common Security Framework.  As such, we have assurances that configuration management especially as it relates to the hosted server environment and disaster recovery are available on all systems hosted by our sub-contractor.  Proof of such due diligence is kept by the Security Officer.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -12,18 +12,24 @@ Catalyze standardizes and automates configuration management through the use of 
 
 ## Configuration Management
 
-1. Salt is used to standardize and automate configuration management.
-2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
-3. No systems are deployed into Catalyze environments without approval of the Catalyze CTO.
-4. All changes to production systems, network devices, and firewalls are approved by the Catalyze CTO before they are implemented. Additionally, all changes are tested before they are implemented in production.
-5. An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Box. All systems are categorized as production and utility to differentiate based on criticality.
-6. Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.
-7. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
-8. All software and systems are tested using unit tests and end to end tests.
+**We are responsible for:**
+
+1. Using unit tests, end-to-end, and integration tests on all software and systems prior to being moved to production.
+2. Reviewing all committed code using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
+3. Utilizing development and staging environments that mirror production to assure proper function.
+
+
+**PaaS Subcontractor is responsible for:**
+
+1. Using Salt to standardize and automate configuration management.
+2. Using OSSEC to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
+3. Verifying so system is deployed into an environment without approval of the PaaS Subcontractor's CTO.
+4. All changes to production systems, network devices, and firewalls are approved by the PaaS Subcontractor's CTO before they are implemented. Additionally, all changes are tested before they are implemented in production.
+5. Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.
+6. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
+7. All software and systems are tested using unit tests and end to end tests.
 9. All committed code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
 10. Catalyze utilizes development and staging environments that mirror production to assure proper function.
-11. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
-12. Catalyze schedules production deployments every four weeks.
-13. All formal change requests require unique ID and authentication.
-14. Changes to Salt and configuration management tools are documented and approved using this [form](https://docs.google.com/a/catalyze.io/forms/d/1wuzKcSsYpyh5Xm4bwkLN5IJEDhzmPl3Cs4xg7Jz2tUc/viewform?usp=send_form)
-15. Changes to production inventory is documented and approved using this [form](https://docs.google.com/a/catalyze.io/forms/d/1jpg57tDyRqwNsgyoUDSOI5KKY9AP6jwBJXpFC67p0Is/viewform?usp=send_form).
+14. Changes to Salt and configuration management tools are documented and approved using appropriate forms and documentation.
+15. Changes to production inventory is documented and approved using appropriate forms and documentation.).
+
