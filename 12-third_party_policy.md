@@ -21,7 +21,7 @@ MolecularMatch makes every effort to assure all thirdy party organizations are c
 	* Due diligence with the 3rd party;
 	* Controls implemented to maintain compliance;
 	* Written agreements, with appropriate security requirements, are executed.
-2. All connections and data in transit between the our Platform and 3rd parties are encrypted end-to-end.
+2. All connections and data in transit between	 our Platform and 3rd parties are encrypted end-to-end.
 3. Access granted to external parties is limited to the minimum necessary and granted only for the duration required.
 4. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization’s security policies. Additionally, responsibility is assigned in these agreements.
 5. Service Level Agreements (SLAs) are put in place with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
