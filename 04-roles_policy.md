@@ -25,7 +25,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 	3. Mitigate, with assistance from the Security Officer to the extent practicable, any harmful effect known to the company of a use or disclosure of ePHI in violation of the policies and procedures, even if effect is the result of actions of our business associates, customers, and/or partners. 
 5. Assist Security Officer as outlined in policies.
 
-The current Privacy Officer is Collin Brack ([cbrack@molecularmatch.com](mailto:cbrack@molecularmatch.com)).
+The current Privacy Officer is Kevin Coker ([kcoker@molecularmatch.com](mailto:kcoker@molecularmatch.com)).
 
 ## Workforce Training Responsibilities
 
